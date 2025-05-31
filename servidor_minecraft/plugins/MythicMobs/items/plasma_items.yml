@@ -1,0 +1,67 @@
+plasma_sword:
+  Id: DIAMOND_SWORD
+  Display: "<gradient:#3685EC:#72C1E4>Plasma Sword"
+  CustomModelData: 1012
+  Material: DIAMOND_SWORD
+  Group: Plasma Set
+  Skills:
+  - skill{skill=Plasma_Slash;cooldown=1} @self ~onSwing
+  - skill{skill=Plasma_Slash;cooldown=1} @self ~onAttac
+  - skill{skill=PlasmaDash;cooldown=5} ?holding{types=diamond_sword}
+  - skill{skill=PlasmaDashCD} @self
+
+plasma_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 1040
+  Hide:
+  - ATTRIBUTES
+
+plasma_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 1041
+  Hide:
+  - ATTRIBUTES
+
+plasma_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 1042
+  Hide:
+  - ATTRIBUTES
+
+plasma_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 1043
+  Hide:
+  - ATTRIBUTES
+
+plasma_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 1044
+  Hide:
+  - ATTRIBUTES
+
+plasma_slash_6:
+  Id: paper
+  Display: "&6"
+  Model: 1045
+  Hide:
+  - ATTRIBUTES
+
+plasma_slash_7:
+  Id: paper
+  Display: "&6"
+  Model: 1046
+  Hide:
+  - ATTRIBUTES
+
+plasma_slash_8:
+  Id: paper
+  Display: "&6"
+  Model: 1047
+  Hide:
+  - ATTRIBUTES

@@ -1,0 +1,1 @@
+{"overrides":[{"predicate":{"custom_model_data":2},"model":"modelengine:vfx_plasma_slash/plasma_slash_vfx"}],"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/leather_horse_armor"}}

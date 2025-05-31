@@ -1,0 +1,7 @@
+PlasmaDashCD:
+  TriggerConditions:
+  - holding{strict=true;m=plasma_sword} true
+  Conditions:
+  - skillOnCooldown{skill=PlasmaDash} true
+  Skills:
+  - actionmessage{message=<gradient:#3685EC:#72C1E4>PLASMA DASH §rEN §4COOLDOWN §e<caster.skill.PlasmaDash.cooldown>s} @self

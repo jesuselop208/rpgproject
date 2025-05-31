@@ -1,0 +1,120 @@
+plasma_sword:
+  displayname: <gradient:#3685EC:#72C1E4>Plasma Sword
+  material: DIAMOND_SWORD
+  AttributeModifiers:
+  - attribute: GENERIC_ATTACK_DAMAGE
+    amount: 10
+    operation: 0
+    slot: HAND
+    uuid: 8f29f481-6fd2-4a50-89be-404e1071a9df
+    name: oraxen:modifier
+    key: oraxen:modifier
+  - attribute: GENERIC_ATTACK_SPEED
+    amount: 2
+    operation: 0
+    slot: HAND
+    uuid: a0f26516-52f5-429f-8cf7-7ce38dc3edeb
+    name: oraxen:modifier
+    key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_sword
+    custom_model_data: 1012
+    textures:
+    - textures/plasma_sword
+
+plasma_slash_1:
+  displayname: plasma_slash_1
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_1
+    custom_model_data: 1040
+    textures:
+    - textures/plasma_slash_1
+
+plasma_slash_2:
+  displayname: plasma_slash_2
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_2
+    custom_model_data: 1041
+    textures:
+    - textures/plasma_slash_2
+
+plasma_slash_3:
+  displayname: plasma_slash_3
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_3
+    custom_model_data: 1042
+    textures:
+    - textures/plasma_slash_3
+
+plasma_slash_4:
+  displayname: plasma_slash_4
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_4
+    custom_model_data: 1043
+    textures:
+    - textures/plasma_slash_4
+
+plasma_slash_5:
+  displayname: plasma_slash_5
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_5
+    custom_model_data: 1044
+    textures:
+    - textures/plasma_slash_5
+
+plasma_slash_6:
+  displayname: plasma_slash_6
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_6
+    custom_model_data: 1045
+    textures:
+    - textures/plasma_slash_6
+
+plasma_slash_7:
+  displayname: plasma_slash_7
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_7
+    custom_model_data: 1046
+    textures:
+    - textures/plasma_slash_7
+
+plasma_slash_8:
+  displayname: plasma_slash_8
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasmas_slash_8
+    custom_model_data: 1047
+    textures:
+    - textures/plasma_slash_8
