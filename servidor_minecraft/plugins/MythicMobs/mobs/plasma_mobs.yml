@@ -68,7 +68,7 @@ Plasma_Slash_3:
 Plasma_Dash:
   Type: ARMOR_STAND
   Pose:
-      RightArm: 0,-55,90
+      RightArm: 0,0,90
   ItemHand: plasma_slash_1
   Options:
     Invisible: true
@@ -81,11 +81,11 @@ Plasma_Dash:
     Invincible: true
     HasArms: true
   Skills:
-  - equip{item=plasma_slash_1:0;delay=2} ~onSpawn
-  - equip{item=plasma_slash_2:0;delay=3} ~onSpawn
-  - equip{item=plasma_slash_3:0;delay=5} ~onSpawn
-  - equip{item=plasma_slash_4:0;delay=7} ~onSpawn
-  - equip{item=plasma_slash_5:0;delay=9} ~onSpawn
-  - equip{item=plasma_slash_6:0;delay=11} ~onSpawn
-  - equip{item=plasma_slash_7:0;delay=13} ~onSpawn
-  - remove{delay=14} @self ~onSpawn
+  - equip{item=plasma_dash_1:0;delay=2} ~onSpawn
+  - equip{item=plasma_dash_2:0;delay=4} ~onSpawn
+  - equip{item=plasma_dash_3:0;delay=6} ~onSpawn
+  - equip{item=plasma_dash_4:0;delay=8} ~onSpawn
+  - equip{item=plasma_dash_5:0;delay=10} ~onSpawn
+  - equip{item=plasma_dash_6:0;delay=12} ~onSpawn
+  - equip{item=plasma_dash_7:0;delay=14} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
