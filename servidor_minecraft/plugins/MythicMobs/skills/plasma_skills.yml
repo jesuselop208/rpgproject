@@ -32,8 +32,8 @@ PlasmaDash:
   - holding{strict=true;m=plasma_sword} true
   Skills:
   - sound{sound=entity.warden.sonic_boom;pitch=1.2;volume=0.4;cooldown=5;delay=10;} @allInRadius{radius=15;targetself=true}
-  - summon{type=Plasma_Dash;amount=1;r=0;yr=0;} @forward{forward=1;xoffset=1.5}
+  - summon{type=Plasma_Dash;amount=1;radius=0;yRadius=0;onSurface=true;repeat=6;repeatinterval=8} @forward{f=5;y=0.15}
   - damage{a=2;cd=5;delay=10;noanger=false} @allInRadius{radius=5;targetself=true}
-  - lunge{velocity=3;cd=5} @self
+  - lunge{velocity=3;velocityY=0} @forward{f=2;y=0}
   - damage{amount=10;ignorearmor=true;cd=5;noanger=false} @EIC{range=10;targetself=true;}
   - sound{sound=block.amethyst_block.resonate;volume=3;pitch=1.3;cd=5} @allInRadius{radius=5;targetself=true} 

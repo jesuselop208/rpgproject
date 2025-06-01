@@ -81,8 +81,6 @@ Plasma_Dash:
     Invincible: true
     HasArms: true
   Skills:
-  - mounttarget{targetisorigin=true;;repeat=99;repeatinterval=1} @self ~onSpawn
-  - teleport{target=;repeat=99;repeatinterval=1} @self ~onSpawn
   - equip{item=plasma_dash_1:0;delay=2} ~onSpawn
   - equip{item=plasma_dash_2:0;delay=4} ~onSpawn
   - equip{item=plasma_dash_3:0;delay=6} ~onSpawn
