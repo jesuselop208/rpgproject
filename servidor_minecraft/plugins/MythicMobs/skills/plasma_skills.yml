@@ -29,12 +29,28 @@ PlasmaDash:
   - skill{skill=PlasmaDashCD}
   CancelIfNoTargets: true
   TriggerConditions:
+  - onGround true 
   - holding{strict=true;m=plasma_sword} true
   Skills:
+  - particle{particle=glow;a=15;size=1.5;repeat=5;repeati=1;vspread=1.5;hspread=0.5} @self
   - sound{sound=entity.warden.sonic_boom;pitch=1.2;volume=0.4;cooldown=5;delay=10;} @allInRadius{radius=15;targetself=true}
-  - summon{type=Plasma_Dash;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=1;y=0.2}
-  - mount{type=Plasma_Dash;} @EIR{r=3;targetarmorstands=true;targetself=false;targetplayers=false}
+  - summon{type=Plasma_Dash_1;amount=1;radius=0;yRadius=0;onSurface=true;delay=2} @selfLocation
+  - summon{type=Plasma_Dash_2;amount=1;radius=0;yRadius=0;onSurface=true;delay=3} @selfLocation
+  - summon{type=Plasma_Dash_3;amount=1;radius=0;yRadius=0;onSurface=true;delay=4} @selfLocation
+  - summon{type=Plasma_Dash_4;amount=1;radius=0;yRadius=0;onSurface=true;delay=5} @selfLocation
+  - summon{type=Plasma_Dash_5;amount=1;radius=0;yRadius=0;onSurface=true;delay=6} @selfLocation
+  - summon{type=Plasma_Dash_6;amount=1;radius=0;yRadius=0;onSurface=true;delay=7} @selfLocation
+  - summon{type=Plasma_Dash_7;amount=1;radius=0;yRadius=0;onSurface=true;delay=8} @selfLocation
+
+  - summon{type=Plasma_Dash_1;amount=1;radius=0;yRadius=0;onSurface=true;delay=2} @selfLocation{soffset=-3;yoffset=-1}
+  - summon{type=Plasma_Dash_2;amount=1;radius=0;yRadius=0;onSurface=true;delay=3} @selfLocation{soffset=-3;yoffset=-1}
+  - summon{type=Plasma_Dash_3;amount=1;radius=0;yRadius=0;onSurface=true;delay=4} @selfLocation{soffset=-3;yoffset=-1}
+  - summon{type=Plasma_Dash_4;amount=1;radius=0;yRadius=0;onSurface=true;delay=5} @selfLocation{soffset=-3;yoffset=-1}
+  - summon{type=Plasma_Dash_5;amount=1;radius=0;yRadius=0;onSurface=true;delay=6} @selfLocation{soffset=-3;yoffset=-1}
+  - summon{type=Plasma_Dash_6;amount=1;radius=0;yRadius=0;onSurface=true;delay=7} @selfLocation{soffset=-3;yoffset=-1}
+  - summon{type=Plasma_Dash_7;amount=1;radius=0;yRadius=0;onSurface=true;delay=8} @selfLocation{soffset=-3;yoffset=-1}
+  - summon{type=Plasma_Slash_1;amount=1;r=0;yr=0;onsurface=true;delay=10} @forward{f=1;so=-0.5}
   - damage{a=2;cd=5;delay=10;noanger=false} @allInRadius{radius=5;targetself=true}
-  - lunge{velocity=2;velocityY=0} @forward{f=2;y=0}
+  - lunge{velocity=3;velocityY=0} @forward{f=2;y=0}
   - damage{amount=10;ignorearmor=true;cd=5;noanger=false} @EIC{range=10;targetself=true;}
   - sound{sound=block.amethyst_block.resonate;volume=3;pitch=1.3;cd=5} @allInRadius{radius=5;targetself=true} 
