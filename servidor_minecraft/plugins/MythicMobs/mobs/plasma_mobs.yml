@@ -81,7 +81,6 @@ Plasma_Dash:
     Invincible: true
     HasArms: true
   Skills:
-  - teleport{location=<entityonmetaowner>+.forward(0.5)} @Self ~onTimer:0:1:20
   - equip{item=plasma_dash_1:0;delay=2} ~onSpawn
   - equip{item=plasma_dash_2:0;delay=4} ~onSpawn
   - equip{item=plasma_dash_3:0;delay=6} ~onSpawn
