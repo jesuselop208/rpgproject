@@ -31,10 +31,9 @@ PlasmaDash:
   TriggerConditions:
   - holding{strict=true;m=plasma_sword} true
   Skills:
-  - teleport{location=<entityonmetaowner>+.forward(0.5)} @Self ~onTimer:0:1:20
   - sound{sound=entity.warden.sonic_boom;pitch=1.2;volume=0.4;cooldown=5;delay=10;} @allInRadius{radius=15;targetself=true}
   - summon{type=Plasma_Dash;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=1;y=0.2}
   - damage{a=2;cd=5;delay=10;noanger=false} @allInRadius{radius=5;targetself=true}
-  - lunge{velocity=3;velocityY=0} @forward{f=2;y=0}
+  - lunge{velocity=2;velocityY=0} @forward{f=2;y=0}
   - damage{amount=10;ignorearmor=true;cd=5;noanger=false} @EIC{range=10;targetself=true;}
   - sound{sound=block.amethyst_block.resonate;volume=3;pitch=1.3;cd=5} @allInRadius{radius=5;targetself=true} 
