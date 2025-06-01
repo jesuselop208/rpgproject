@@ -27,7 +27,7 @@ Plasma_Slash_2:
   Type: ARMOR_STAND
   Pose:
       RightArm: -25,-55,180
-  ItemHand: warrior_slash_1
+  ItemHand: plasma_slash_1
   Options:
     Marker: true
     Small: false
@@ -48,7 +48,7 @@ Plasma_Slash_3:
   Type: ARMOR_STAND
   Pose:
       RightArm: 0,-75,180
-  ItemHand: warrior_slash_1
+  ItemHand: plasma_slash_1
   Options:
     Marker: true
     Small: false

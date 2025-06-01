@@ -14,7 +14,7 @@ plasma_sword:
   Skills:
   - skill{skill=Plasma_Slash;cooldown=1} @self ~onSwing
   - skill{skill=Plasma_Slash;cooldown=1} @self ~onAttack
-  - skill{skill=PlasmaDash;cooldown=5} ?holding{types=diamond_sword}
+  - skill{skill=PlasmaDash;cooldown=5}
   - skill{skill=PlasmaDashCD} @self
 
 plasma_slash_1:
