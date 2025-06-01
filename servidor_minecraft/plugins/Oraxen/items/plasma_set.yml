@@ -1,6 +1,6 @@
 plasma_sword:
   displayname: <gradient:#3685EC:#72C1E4>Plasma Sword
-  material: DIAMOND_SWORD
+  material: STICK
   AttributeModifiers:
   - attribute: GENERIC_ATTACK_DAMAGE
     amount: 10
@@ -10,7 +10,7 @@ plasma_sword:
     name: oraxen:modifier
     key: oraxen:modifier
   - attribute: GENERIC_ATTACK_SPEED
-    amount: 2
+    amount: 4
     operation: 0
     slot: HAND
     uuid: a0f26516-52f5-429f-8cf7-7ce38dc3edeb

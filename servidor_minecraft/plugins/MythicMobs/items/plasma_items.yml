@@ -1,12 +1,19 @@
 plasma_sword:
-  Id: DIAMOND_SWORD
+  Id: stick
   Display: "<gradient:#3685EC:#72C1E4>Plasma Sword"
   CustomModelData: 1012
-  Material: DIAMOND_SWORD
+  Material: STICK
   Group: Plasma Set
+  Attributes:
+    MainHand:
+      damage: 8 ADD
+      attackSpeed: 1 ADD
+  Options:
+    Unbreakable: true
+    PreventStacking: true
   Skills:
   - skill{skill=Plasma_Slash;cooldown=1} @self ~onSwing
-  - skill{skill=Plasma_Slash;cooldown=1} @self ~onAttac
+  - skill{skill=Plasma_Slash;cooldown=1} @self ~onAttack
   - skill{skill=PlasmaDash;cooldown=5} ?holding{types=diamond_sword}
   - skill{skill=PlasmaDashCD} @self
 
