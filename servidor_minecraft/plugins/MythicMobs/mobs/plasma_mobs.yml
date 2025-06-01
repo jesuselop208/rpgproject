@@ -69,7 +69,7 @@ Plasma_Dash:
   Type: ARMOR_STAND
   Pose:
       RightArm: 0,0,90
-  ItemHand: plasma_slash_1
+  ItemHand: plasma_dash_1
   Options:
     Invisible: true
     VisibleByDefault: true
@@ -81,7 +81,8 @@ Plasma_Dash:
     Invincible: true
     HasArms: true
   Skills:
-  - teleportlocation{target=@casterLocation{forwardoffset=3};repeat=99;repeatinterval=1} @self ~onSpawn
+  - mounttarget{targetisorigin=true;;repeat=99;repeatinterval=1} @self ~onSpawn
+  - teleport{target=;repeat=99;repeatinterval=1} @self ~onSpawn
   - equip{item=plasma_dash_1:0;delay=2} ~onSpawn
   - equip{item=plasma_dash_2:0;delay=4} ~onSpawn
   - equip{item=plasma_dash_3:0;delay=6} ~onSpawn
