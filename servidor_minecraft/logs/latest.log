@@ -304,3 +304,51 @@
 [01:58:34] [Server thread/INFO]: [MythicMobs] Attached traits to items.
 [01:58:34] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
 [01:58:34] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[02:10:59] [Server thread/INFO]: [Mythic] Reloading plugin...
+[02:10:59] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[02:10:59] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:10:59] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:10:59] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:10:59] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:10:59] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:10:59] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:10:59] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 11 mobs.
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 skills.
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 19 mythic items.
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:10:59] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:10:59] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[02:10:59] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[02:10:59] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[02:11:02] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[02:11:02] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[02:11:02] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:11:02] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:11:02] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[02:11:02] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[02:11:02] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:11:02] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:11:02] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:11:02] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[02:11:02] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[02:11:02] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[02:11:02] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[02:11:02] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[02:11:03] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[02:11:03] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[02:11:03] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[02:11:03] [Server thread/INFO]: 
+[02:11:03] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[02:11:03] [Server thread/INFO]: 
+[02:11:03] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:11:03] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:11:03] [Craft Scheduler Thread - 4 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:11:05] [Craft Scheduler Thread - 4 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=f2e7678dab6e265084d47eaeccc0317ac1b813c1 in 1709 ms

@@ -72,3 +72,46 @@ plasma_slash_8:
   Model: 1047
   Hide:
   - ATTRIBUTES
+
+plasma_dash_1:
+  Id: paper
+  Display: "&6"
+  Model: 1048
+  Hide:
+  - ATTRIBUTES
+plasma_dash_2:
+  Id: paper
+  Display: "&6"
+  Model: 1049
+  Hide:
+  - ATTRIBUTES
+plasma_dash_3:
+  Id: paper
+  Display: "&6"
+  Model: 1050
+  Hide:
+  - ATTRIBUTES
+plasma_dash_4:
+  Id: paper
+  Display: "&6"
+  Model: 1051
+  Hide:
+  - ATTRIBUTES
+plasma_dash_5:
+  Id: paper
+  Display: "&6"
+  Model: 1052
+  Hide:
+  - ATTRIBUTES
+plasma_dash_6:
+  Id: paper
+  Display: "&6"
+  Model: 1053
+  Hide:
+  - ATTRIBUTES
+plasma_dash_7:
+  Id: paper
+  Display: "&6"
+  Model: 1054
+  Hide:
+  - ATTRIBUTES

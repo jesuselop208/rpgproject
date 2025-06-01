@@ -118,3 +118,81 @@ plasma_slash_8:
     custom_model_data: 1047
     textures:
     - textures/plasma_slash_8
+
+plasma_dash_1:
+  displayname: plasma_dash_1
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_dash_1
+    custom_model_data: 1048
+    textures:
+    - textures/plasma_dash_1
+plasma_dash_2:
+  displayname: plasma_dash_2
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_dash_2
+    custom_model_data: 1049
+    textures:
+    - textures/plasma_dash_2
+plasma_dash_3:
+  displayname: plasma_dash_3
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_dash_3
+    custom_model_data: 1050
+    textures:
+    - textures/plasma_dash_3
+plasma_dash_4:
+  displayname: plasma_dash_4
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_dash_4
+    custom_model_data: 1051
+    textures:
+    - textures/plasma_dash_4
+plasma_dash_5:
+  displayname: plasma_dash_5
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_dash_5
+    custom_model_data: 1052
+    textures:
+    - textures/plasma_dash_5
+plasma_dash_6:
+  displayname: plasma_dash_6
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_dash_6
+    custom_model_data: 1053
+    textures:
+    - textures/plasma_dash_6
+plasma_dash_7:
+  displayname: plasma_dash_7
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_dash_7
+    custom_model_data: 1054
+    textures:
+    - textures/plasma_dash_7

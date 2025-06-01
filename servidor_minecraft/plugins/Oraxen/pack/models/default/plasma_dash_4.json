@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "plasma_dash_4",
+		"particle": "plasma_dash_4"
+	},
+	"elements": [
+		{
+			"from": [-10, 0, 8],
+			"to": [26, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 9, 6.75], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 6.75], "texture": "#0"},
+				"south": {"uv": [9, 0, 0, 6.75], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 6.75], "texture": "#0"},
+				"up": {"uv": [9, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [9, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	]
+}
