@@ -17,6 +17,19 @@ plasma_sword:
   - skill{skill=PlasmaDash;cooldown=5}
   - skill{skill=PlasmaDashCD} @self
 
+plasma_pickaxe:
+  Id: stick
+  Display: "<gradient:#3685EC:#72C1E4>Plasma Pickaxe"
+  CustomModelData: 1000
+  Material: STICK
+  Group: Plasma Set
+  Attributes:
+    MainHand:
+      BlockBreakSpeed: 5 ADD
+  Options:
+    Unbreakable: true
+    PreventStacking: true
+
 plasma_slash_1:
   Id: paper
   Display: "&6"

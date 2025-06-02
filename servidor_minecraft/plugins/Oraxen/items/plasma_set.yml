@@ -24,7 +24,7 @@ plasma_sword:
     - textures/plasma_sword
 
 plasma_pickaxe:
-  displayname: <gradient:#3685EC:#72C1E4>Plasma Sword
+  displayname: <gradient:#3685EC:#72C1E4>Plasma Pickaxe
   material: STICK
   Pack:
     generate_model: false
