@@ -61,6 +61,8 @@ Plasma_Boost:
   - skill{skill=PlasmaBoostCD}
   Skills:
   - onblockbreak{aura=Plasma_Boost_Aura;charges=5;onbreakskill=Plasma_Boost;} @self
-  - particles{p=glow;amount=10;repeat=10;repeati=20;vspread=0.5;hspread=0.5} @self
-  - potion{type=HASTE;duration=160;ambientparticles=false;l=2;hasparticles=false;} @self
+  - particles{p=glow;amount=15;repeat=15;repeati=10;vspread=0.5;hspread=1.5} @self
+  - potion{type=HASTE;duration=160;ambientparticles=false;l=2;hasparticles=false} @self
+  - potion{type=SPEED;duration=160;ambientparticles=false;l=1;hasparticles=false;hasicon=false} @self
   - sound{sound=minecraft:plasma_boost_sound;pitch=1.6;volume=0.4} @self
+  - sound{sound=minecraft:plasma_boost_end_sound;pitch=2;volume=0.2;delay=120} @self
