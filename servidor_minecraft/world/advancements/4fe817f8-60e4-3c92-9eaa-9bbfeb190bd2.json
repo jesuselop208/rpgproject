@@ -1,25 +1,19 @@
 {
-  "minecraft:recipes/combat/leather_helmet": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_leather": "2025-06-02 00:16:45 +0000"
+      "unlock_right_away": "2025-06-01 23:14:19 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-06-01 23:14:20 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-06-01 23:14:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2025-06-02 00:16:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-06-01 23:16:08 +0000"
     },
     "done": true
   },
@@ -41,33 +35,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-06-02 00:16:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2025-06-01 23:14:30 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2025-06-02 00:16:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-06-01 23:14:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-06-01 23:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-06-01 23:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-06-01 23:16:08 +0000"
     },
     "done": true
   },
@@ -83,23 +71,35 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2025-06-01 23:14:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-06-01 23:16:08 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
-      "minecraft:plains": "2025-06-01 23:14:20 +0000"
+      "has_leather": "2025-06-02 00:16:45 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-06-02 00:16:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-06-02 00:16:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-06-02 00:16:45 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
