@@ -25,14 +25,14 @@ plasma_sword:
 
 plasma_pickaxe:
   displayname: <gradient:#3685EC:#72C1E4>Plasma Pickaxe
-  material: STICK
+  material: DIAMOND_PICKAXE
   Pack:
     generate_model: false
     model: default/plasma_pickaxe
     textures:
     - textures/plasma_pickaxe
-    custom_model_data: 1000
-    
+    custom_model_data: 1007
+
 plasma_slash_1:
   displayname: plasma_slash_1
   material: PAPER

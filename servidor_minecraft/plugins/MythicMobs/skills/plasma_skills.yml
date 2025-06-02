@@ -53,4 +53,8 @@ PlasmaDash:
   - damage{a=2;cd=5;delay=10;noanger=false} @allInRadius{radius=5;targetself=true}
   - lunge{velocity=2.3;velocityY=0.5} @self{}
   - damage{amount=10;ignorearmor=true;cd=5;noanger=false} @EIC{range=10;targetself=true;}
-  - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6;cd=5} @allInRadius{radius=5;targetself=true} 
+  - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6;cd=5} @allInRadius{radius=5;targetself=true}
+
+Plasma_Boost:
+  Skills:
+  - effect:geyser @self{}

@@ -18,17 +18,23 @@ plasma_sword:
   - skill{skill=PlasmaDashCD} @self
 
 plasma_pickaxe:
-  Id: stick
+  Id: DIAMOND_PICKAXE
   Display: "<gradient:#3685EC:#72C1E4>Plasma Pickaxe"
-  CustomModelData: 1000
-  Material: STICK
+  CustomModelData: 1007
+  Material: DIAMOND_PICKAXE
   Rarity: RARE
   Group: Plasma Set
   Tool:
-    DefaultMiningSpeed: 4.00
+    default_mining_speed: 4
+  Attributes:
+    MainHand:
+      damage: 4 ADD
+      attackSpeed: 0.5 ADD
   Options:
     Unbreakable: true
     PreventStacking: true
+  Skills:
+  - aura{aura=Plasma_boost}
 
 plasma_slash_1:
   Id: paper
