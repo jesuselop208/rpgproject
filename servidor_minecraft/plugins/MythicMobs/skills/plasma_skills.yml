@@ -24,7 +24,7 @@ Plasma_Slash_3:
   - damage{amount=5;ignorearmor=true;cd=2;noanger=false} @ENO{range=0.5}
 
 PlasmaDash:
-  Cooldown: 5
+  Cooldown: 15
   OnCooldownSkill:
   - skill{skill=PlasmaDashCD}
   CancelIfNoTargets: true
@@ -33,7 +33,7 @@ PlasmaDash:
   - holding{strict=true;m=plasma_sword} true
   Skills:
   - particle{particle=glow;a=15;size=1.5;repeat=5;repeati=1;vspread=1.5;hspread=0.5} @self
-  - sound{sound=minecraft:plasma_slash_sound;pitch=0.6;volume=0.4;cooldown=5;delay=10;} @allInRadius{radius=15;targetself=true}
+  - sound{sound=minecraft:plasma_slash_sound;pitch=0.6;volume=0.2;delay=10;} @allInRadius{radius=15;targetself=true}
   - summon{type=Plasma_Dash_1;amount=1;radius=0;yRadius=0;onSurface=true;delay=2} @selfLocation
   - summon{type=Plasma_Dash_2;amount=1;radius=0;yRadius=0;onSurface=true;delay=3} @selfLocation
   - summon{type=Plasma_Dash_3;amount=1;radius=0;yRadius=0;onSurface=true;delay=4} @selfLocation
@@ -51,12 +51,12 @@ PlasmaDash:
   - summon{type=Plasma_Dash_7;amount=1;radius=0;yRadius=0;onSurface=true;delay=8} @selfLocation{soffset=-3;yoffset=-1}
   - summon{type=Plasma_Slash_1;amount=1;r=0;yr=0;onsurface=true;delay=10} @forward{f=1;so=-0.5}
   - damage{a=2;cd=5;delay=10;noanger=false} @allInRadius{radius=5;targetself=true}
-  - lunge{velocity=2.3;velocityY=0.5} @self{}
-  - damage{amount=10;ignorearmor=true;cd=5;noanger=false} @EIC{range=10;targetself=true;}
-  - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6;cd=5} @allInRadius{radius=5;targetself=true}
+  - lunge{velocity=1.5;velocityY=0.5;} @self 
+  - damage{amount=10;ignorearmor=true;noanger=false} @EIC{range=10;targetself=true;}
+  - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6} @allInRadius{radius=5;targetself=true}
 
 Plasma_Boost:
-  Cooldown: 15
+  Cooldown: 20
   OnCooldownSkill:
   - skill{skill=PlasmaBoostCD}
   Skills:
@@ -64,5 +64,6 @@ Plasma_Boost:
   - particles{p=glow;amount=15;repeat=15;repeati=10;vspread=0.5;hspread=1.5} @self
   - potion{type=HASTE;duration=160;ambientparticles=false;l=2;hasparticles=false} @self
   - potion{type=SPEED;duration=160;ambientparticles=false;l=1;hasparticles=false;hasicon=false} @self
+  - particle{p=soul_fire_flame;amount=15;vspread=1;hs=1.5;delay=160;forwardoffset=1} @self
   - sound{sound=minecraft:plasma_boost_sound;pitch=1.6;volume=0.4} @self
   - sound{sound=minecraft:plasma_boost_end_sound;pitch=2;volume=0.2;delay=120} @self
