@@ -15,6 +15,14 @@ sounds:
   plasma_dash_sound:
     category: master
     sound: plasma_dash_sound.ogg
+  
+  plasma_boost_sound:
+    category: master
+    sound: plasma_boost_sound.ogg
+  
+  plasma_boost_end_sound:
+    category: master
+    sound: plasma_boost_end_sound.ogg
 
   welcome:
     category: record

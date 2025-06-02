@@ -25658,3 +25658,79 @@ Caused by: java.lang.IllegalArgumentException: Unknown attribute 'minecraft:play
 [04:17:51] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
 [04:17:51] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
 [04:17:54] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[04:24:18] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[04:24:18] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[04:24:18] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[04:24:18] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[04:24:18] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[04:24:18] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[04:24:18] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[04:24:18] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[04:24:18] [Server thread/INFO]: Oraxen | Successfully reloaded
+[04:24:18] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[04:24:18] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[04:24:18] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[04:24:18] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[04:24:18] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[04:24:18] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[04:24:18] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[04:24:18] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[04:24:18] [Server thread/INFO]: 
+[04:24:18] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[04:24:18] [Server thread/INFO]: 
+[04:24:18] [Server thread/INFO]: Oraxen | Successfully reloaded
+[04:24:18] [Server thread/INFO]: Oraxen | Successfully reloaded
+[04:24:19] [Craft Scheduler Thread - 177 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[04:24:21] [Craft Scheduler Thread - 177 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=f98fad8c4f537b8d2de7c434987e139c397ca140 in 1704 ms
+[04:25:21] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:25:21] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:25:21] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:25:21] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:25:22] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:25:22] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:25:22] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:25:22] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:25:22] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:25:22] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 18 mobs.
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 11 skills.
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 20 mythic items.
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:25:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:25:22] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:25:22] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:25:22] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:25:28] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[04:30:27] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[04:30:27] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[04:30:27] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[04:30:27] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[04:30:27] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[04:30:27] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[04:30:27] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[04:30:27] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[04:30:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[04:30:27] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[04:30:27] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[04:30:27] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[04:30:27] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[04:30:27] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[04:30:27] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[04:30:27] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[04:30:27] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[04:30:27] [Server thread/INFO]: 
+[04:30:27] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[04:30:27] [Server thread/INFO]: 
+[04:30:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[04:30:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[04:30:28] [Craft Scheduler Thread - 177 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[04:30:30] [Craft Scheduler Thread - 177 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=64d03f5c3b21d059e964bbfdd75a6b65d7ed81a1 in 1629 ms
