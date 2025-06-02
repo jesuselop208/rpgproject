@@ -57,4 +57,10 @@ PlasmaDash:
 
 Plasma_Boost_Aura:
   Skills:
-  - aura{aura=Plasma_Boost_Aura;onTick=}
+  - aura{aura=Plasma_Boost_Aura;onBlockBreak=Plasma_Boost;duration=100;charges=5} @self{}
+  - onblockbreak{aura=Plasma_Boost_Aura}
+
+Plasma_Boost:
+  Skills:
+  - particles{p=glow;amount=10;repeat=15;repeati=20;vspread=0.5;hspread=0.5} @self
+  - potion{type=HASTE;duration=160;ambientparticles=false;l=2;hasparticles=false;} @self
