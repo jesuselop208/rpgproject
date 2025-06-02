@@ -11,6 +11,10 @@ sounds:
   plasma_slash_sound:
     category: master
     sound: plasma_slash_sound.ogg
+  
+  plasma_dash_sound:
+    category: master
+    sound: plasma_dash_sound.ogg
 
   welcome:
     category: record
