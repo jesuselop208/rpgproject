@@ -11460,3 +11460,66 @@
 [02:28:28] [lumine-scheduler-9/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 [02:28:28] [lumine-scheduler-9/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 [02:28:28] [lumine-scheduler-9/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:31:04] [Server thread/INFO]: elyisus_xdd lost connection: Disconnected
+[02:31:04] [Server thread/INFO]: elyisus_xdd left the game
+[02:33:34] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[02:33:34] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[02:33:34] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:33:34] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:33:34] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[02:33:34] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[02:33:34] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:33:34] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:33:34] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:33:34] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[02:33:34] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[02:33:35] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[02:33:35] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[02:33:35] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[02:33:35] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[02:33:35] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[02:33:35] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[02:33:35] [Server thread/INFO]: 
+[02:33:35] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[02:33:35] [Server thread/INFO]: 
+[02:33:35] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:33:35] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:33:36] [Craft Scheduler Thread - 38 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:33:37] [Craft Scheduler Thread - 38 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=11c8801cb0e0a60a81e7334b5ab3e873f447fab5 in 1664 ms
+[02:33:39] [User Authenticator #1/INFO]: UUID of player elyisus_xdd is 4fe817f8-60e4-3c92-9eaa-9bbfeb190bd2
+[02:33:40] [Server thread/INFO]: elyisus_xdd joined the game
+[02:33:40] [Server thread/INFO]: elyisus_xdd[/[0:0:0:0:0:0:0:1%0]:35124] logged in with entity id 185 at ([world]13.004073714178688, -60.0, 21.007891160046498)
+[02:36:59] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[02:36:59] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[02:36:59] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:36:59] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:36:59] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[02:36:59] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[02:36:59] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:36:59] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:36:59] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:36:59] [Server thread/INFO]: Oraxen | CustomModelData 1012 is already assigned to another item with this material but different model
+[02:36:59] [Server thread/INFO]: Oraxen | Removing custom model data from plasma_set.yml: plasma_pickaxe
+
+[02:37:00] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[02:37:00] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[02:37:00] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[02:37:00] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[02:37:00] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[02:37:00] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[02:37:00] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[02:37:00] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[02:37:00] [Server thread/INFO]: 
+[02:37:00] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[02:37:00] [Server thread/INFO]: 
+[02:37:00] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:37:00] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:37:01] [Craft Scheduler Thread - 44 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:37:03] [Craft Scheduler Thread - 44 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=0801b977c3834d56bf002127071e2d0f6d1dec74 in 1582 ms
+[02:37:18] [Server thread/INFO]: elyisus_xdd issued server command: /o inv
