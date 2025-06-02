@@ -24,7 +24,7 @@ Plasma_Slash_3:
   - damage{amount=5;ignorearmor=true;cd=2;noanger=false} @ENO{range=0.5}
 
 PlasmaDash:
-  Cooldown: 15
+  Cooldown: 5
   OnCooldownSkill:
   - skill{skill=PlasmaDashCD}
   CancelIfNoTargets: true
