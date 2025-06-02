@@ -55,6 +55,6 @@ PlasmaDash:
   - damage{amount=10;ignorearmor=true;cd=5;noanger=false} @EIC{range=10;targetself=true;}
   - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6;cd=5} @allInRadius{radius=5;targetself=true}
 
-Plasma_Boost:
+Plasma_Boost_Aura:
   Skills:
-  - bossBorder{r=40} @NearestPlayer{r=30}
+  - aura{aura=Plasma_Boost_Aura;onTick=}
