@@ -56,11 +56,12 @@ PlasmaDash:
   - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6;cd=5} @allInRadius{radius=5;targetself=true}
 
 Plasma_Boost_Aura:
+  Cooldown: 15
   Skills:
-  - aura{aura=Plasma_Boost_Aura;onBlockBreak=Plasma_Boost;duration=100;charges=5} @self{}
-  - onblockbreak{aura=Plasma_Boost_Aura}
+  - onblockbreak{aura=Plasma_Boost_Aura;charges=5;onbreakskill=Plasma_Boost;} @self
 
 Plasma_Boost:
+  Cooldown: 15
   Skills:
-  - particles{p=glow;amount=10;repeat=15;repeati=20;vspread=0.5;hspread=0.5} @self
+  - particles{p=glow;amount=10;repeat=10;repeati=20;vspread=0.5;hspread=0.5} @self
   - potion{type=HASTE;duration=160;ambientparticles=false;l=2;hasparticles=false;} @self

@@ -25434,3 +25434,127 @@ Caused by: java.lang.IllegalArgumentException: Unknown attribute 'minecraft:play
 [04:00:12] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
 [04:00:12] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
 [04:00:22] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[04:03:09] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:03:09] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:03:09] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:03:09] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:03:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:03:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:03:09] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:03:09] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:03:09] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 18 mobs.
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 11 skills.
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 20 mythic items.
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:03:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:03:09] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:03:09] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:03:09] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:03:16] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[04:05:34] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:05:34] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:05:34] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:05:34] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:05:34] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:05:34] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:05:34] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:05:34] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:05:34] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 18 mobs.
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 11 skills.
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 20 mythic items.
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:05:34] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:05:34] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:05:34] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:05:34] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:05:38] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[04:06:27] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:06:27] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:06:27] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:06:27] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:06:27] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:06:27] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:06:27] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:06:27] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:06:27] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 18 mobs.
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 11 skills.
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 20 mythic items.
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:06:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:06:28] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:06:28] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:06:28] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:06:32] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[04:07:25] [lumine-scheduler-55/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:07:25] [lumine-scheduler-55/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:07:25] [lumine-scheduler-55/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:07:26] [lumine-scheduler-56/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:07:26] [lumine-scheduler-56/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:07:26] [lumine-scheduler-56/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:08:12] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:08:12] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:08:12] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:08:12] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:08:12] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:08:12] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:08:12] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:08:12] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:08:12] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 18 mobs.
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 11 skills.
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 20 mythic items.
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:08:12] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:08:12] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:08:12] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:08:12] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:08:15] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
