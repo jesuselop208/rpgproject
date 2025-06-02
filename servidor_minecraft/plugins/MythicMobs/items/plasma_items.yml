@@ -23,9 +23,6 @@ plasma_pickaxe:
   CustomModelData: 1000
   Material: STICK
   Group: Plasma Set
-  Attributes:
-    MainHand:
-      BlockBreakSpeed: 5 ADD
   Options:
     Unbreakable: true
     PreventStacking: true
