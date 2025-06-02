@@ -57,4 +57,4 @@ PlasmaDash:
 
 Plasma_Boost:
   Skills:
-  - effect:blockWave @self{}
+  - bossBorder{r=40} @NearestPlayer{r=30}
