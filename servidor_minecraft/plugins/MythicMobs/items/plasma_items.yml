@@ -34,7 +34,8 @@ plasma_pickaxe:
     Unbreakable: true
     PreventStacking: true
   Skills:
-  - skill{skill=Plasma_Boost_Aura;cd=15} @self ~onBlockBreak
+  - skill{skill=Plasma_Boost;cd=15} @self ~onBlockBreak
+  - skill{skill=PlasmaBoostCD} @self ~onBlockBreak
 
 plasma_slash_1:
   Id: paper

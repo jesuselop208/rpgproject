@@ -5,3 +5,11 @@ PlasmaDashCD:
   - skillOnCooldown{skill=PlasmaDash} true
   Skills:
   - actionmessage{message=<gradient:#3685EC:#72C1E4>PLASMA DASH §rEN §4COOLDOWN §e<caster.skill.PlasmaDash.cooldown>s} @self
+
+PlasmaBoostCD:
+  TriggerConditions:
+  - holding{strict=true;m=plasma_pickaxe} true
+  Conditions:
+  - skillOnCooldown{skill=Plasma_Boost} true
+  Skills:
+  - actionmessage{message=<gradient:#3685EC:#72C1E4>PLASMA BOOST §rEN §4COOLDOWN §e<caster.skill.Plasma_Boost.cooldown>s} @self
