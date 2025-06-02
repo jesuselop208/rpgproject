@@ -22,7 +22,10 @@ plasma_pickaxe:
   Display: "<gradient:#3685EC:#72C1E4>Plasma Pickaxe"
   CustomModelData: 1000
   Material: STICK
+  Rarity: RARE
   Group: Plasma Set
+  Tool:
+    DefaultMiningSpeed: 4.00
   Options:
     Unbreakable: true
     PreventStacking: true
