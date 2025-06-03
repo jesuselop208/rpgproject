@@ -14,6 +14,7 @@ plasma_sword:
   Skills:
   - skill{skill=Plasma_Slash;cooldown=1} @self ~onSwing
   - skill{skill=Plasma_Slash;cooldown=1} @self ~onAttack
+  - skill{skill=Plasma_Dimensional_Slash} @target ~onAttack
   - skill{skill=PlasmaDash;cooldown=5} 
   - skill{skill=PlasmaDashCD} @self
 
