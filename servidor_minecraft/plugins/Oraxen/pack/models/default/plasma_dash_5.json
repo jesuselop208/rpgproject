@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "plasma_dash_5"
+		"2": "plasma_dash/plasma_dash_5"
 	},
 	"elements": [
 		{
@@ -34,7 +34,7 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0, -12.25],
+			"translation": [0, 0, -32.25],
 			"scale": [1.5, 1.5, 1.5]
 		},
 		"thirdperson_lefthand": {
