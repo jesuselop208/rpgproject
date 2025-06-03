@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-06-03 03:40:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
     "criteria": {
       "has_deepslate_gold_ore": "2025-06-03 03:36:06 +0000"
