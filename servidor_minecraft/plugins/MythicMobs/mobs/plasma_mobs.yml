@@ -88,4 +88,4 @@ Plasma_Dash_1:
   - equip{item=plasma_dash_5:0;delay=10} ~onSpawn
   - equip{item=plasma_dash_6:0;delay=12} ~onSpawn
   - equip{item=plasma_dash_7:0;delay=14} ~onSpawn
-  - remove{delay=16} @self ~onSpawn
+  - remove{delay=15} @self ~onSpawn
