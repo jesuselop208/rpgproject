@@ -68,7 +68,7 @@ Plasma_Slash_3:
 Plasma_Dash_1:
   Type: ARMOR_STAND
   Pose:
-      RightArm: 0,90,90
+      RightArm: 90,0,0
   ItemHand: plasma_dash_1
   Options:
     Invisible: true
@@ -80,7 +80,7 @@ Plasma_Dash_1:
     Invincible: true
     HasArms: true
   Skills:
-  - mounttarget{repeat=10;repeatinterval=0} @owner ~onSpawn
+  - mounttarget @owner ~onSpawnorload
   - equip{item=plasma_dash_1:0;delay=2} ~onSpawn
   - equip{item=plasma_dash_2:0;delay=4} ~onSpawn
   - equip{item=plasma_dash_3:0;delay=6} ~onSpawn
