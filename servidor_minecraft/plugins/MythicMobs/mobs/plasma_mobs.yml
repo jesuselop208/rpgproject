@@ -81,7 +81,7 @@ Plasma_Dash_1:
     Invincible: true
     HasArms: true
   Skills:
-  - mounttarget @owner ~onSpawn
+  - mounttarget{repeat=3} @owner ~onSpawn
   - equip{item=plasma_dash_1:0;delay=2} ~onSpawn
   - equip{item=plasma_dash_2:0;delay=4} ~onSpawn
   - equip{item=plasma_dash_3:0;delay=6} ~onSpawn
@@ -90,4 +90,3 @@ Plasma_Dash_1:
   - equip{item=plasma_dash_6:0;delay=12} ~onSpawn
   - equip{item=plasma_dash_7:0;delay=14} ~onSpawn
   - remove{delay=16} @self ~onSpawn
-
