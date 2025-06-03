@@ -56,7 +56,7 @@ PlasmaDash:
   - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6} @allInRadius{radius=5;targetself=true}
 
 Plasma_Boost:
-  Cooldown: 20
+  Cooldown: 15
   OnCooldownSkill:
   - skill{skill=PlasmaBoostCD}
   Skills:
@@ -67,3 +67,17 @@ Plasma_Boost:
   - particle{p=soul_fire_flame;amount=15;vspread=1;hs=1.5;delay=160;forwardoffset=1} @self
   - sound{sound=minecraft:plasma_boost_sound;pitch=1.6;volume=0.4} @self
   - sound{sound=minecraft:plasma_boost_end_sound;pitch=2;volume=0.2;delay=120} @self
+
+Plasma_Dimensional_Slash:
+  Conditions:
+  - score{objective=dimensional_slash_cd;v=>0} false
+  TargetConditions:
+  - health{h=<30}
+  Skills:
+  - setscore{objective=dimensional_slash_cd;value=30;duration=30} @self
+  - sound{sound=entity.enderman.teleport;volume=1.2;pitch=1.4} @self
+  - teleport{} @targetLocation{f=1.2;b=0;y=0.1}
+  - sound{sound=entity.player.attack.crit;volume=1.5;pitch=0.8} @self
+  - particle{p=crit;a=30;hs=0.4;vs=0.1;speed=0.2;repeat=3;repeati=1} @target
+  - damage{amount=14;ignorearmor=true;causes=PROJECTILE} @target
+  - actionmessage{message="&c&l¡Corte Dimensional!"} @self
