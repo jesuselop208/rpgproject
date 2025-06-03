@@ -34,7 +34,7 @@ PlasmaDash:
   Skills:
   - particle{particle=glow;a=15;size=1.5;repeat=5;repeati=1;vspread=1.5;hspread=0.5} @self
   - sound{sound=minecraft:plasma_slash_sound;pitch=0.6;volume=0.2;delay=10;} @allInRadius{radius=15;targetself=true}
-  - summon{type=Plasma_Dash_1;amount=1;radius=0;yRadius=0} @self
+  - summon{type=Plasma_Dash_1;amount=1;radius=0;yRadius=0;pitch=1} @self
   - summon{type=Plasma_Slash_1;amount=1;r=0;yr=0;onsurface=true;delay=10} @forward{f=1;yoffset=1}
   - damage{a=2;cd=5;delay=10;noanger=false} @allInRadius{radius=5;targetself=true}
   - lunge{velocity=1.5;vy=0.3} @self 
