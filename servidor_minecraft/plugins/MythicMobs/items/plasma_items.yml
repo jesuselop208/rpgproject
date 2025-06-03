@@ -7,7 +7,6 @@ plasma_sword:
   Attributes:
     MainHand:
       damage: 8 ADD
-      attackSpeed: 1 ADD
   Options:
     Unbreakable: true
     PreventStacking: true

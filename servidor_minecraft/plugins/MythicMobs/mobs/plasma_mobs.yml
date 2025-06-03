@@ -81,113 +81,13 @@ Plasma_Dash_1:
     Invincible: true
     HasArms: true
   Skills:
+  - mounttarget @owner ~onSpawn
   - equip{item=plasma_dash_1:0;delay=2} ~onSpawn
-  - remove{delay=4} @self ~onSpawn
-Plasma_Dash_2:
-  Type: ARMOR_STAND
-  Pose:
-      RightArm: 0,90,90
-  ItemHand: plasma_dash_2
-  Options:
-    Invisible: true
-    VisibleByDefault: true
-    Silent: true
-    PreventOtherDrops: true
-    Despawn: true
-    NoGravity: true
-    Marker: true
-    Invincible: true
-    HasArms: true
-  Skills:
-  - equip{item=plasma_dash_2:0;delay=3} ~onSpawn
-  - remove{delay=5} @self ~onSpawn
-Plasma_Dash_3:
-  Type: ARMOR_STAND
-  Pose:
-      RightArm: 0,90,90
-  ItemHand: plasma_dash_3
-  Options:
-    Invisible: true
-    VisibleByDefault: true
-    Silent: true
-    PreventOtherDrops: true
-    Despawn: true
-    NoGravity: true
-    Marker: true
-    Invincible: true
-    HasArms: true
-  Skills:
-  - equip{item=plasma_dash_3:0;delay=4} ~onSpawn
-  - remove{delay=6} @self ~onSpawn
-Plasma_Dash_4:
-  Type: ARMOR_STAND
-  Pose:
-      RightArm: 0,90,90
-  ItemHand: plasma_dash_4
-  Options:
-    Invisible: true
-    VisibleByDefault: true
-    Silent: true
-    PreventOtherDrops: true
-    Despawn: true
-    NoGravity: true
-    Marker: true
-    Invincible: true
-    HasArms: true
-  Skills:
-  - equip{item=plasma_dash_4:0;delay=5} ~onSpawn
-  - remove{delay=7} @self ~onSpawn
-Plasma_Dash_5:
-  Type: ARMOR_STAND
-  Pose:
-      RightArm: 0,90,90
-  ItemHand: plasma_dash_5
-  Options:
-    Invisible: true
-    VisibleByDefault: true
-    Silent: true
-    PreventOtherDrops: true
-    Despawn: true
-    NoGravity: true
-    Marker: true
-    Invincible: true
-    HasArms: true
-  Skills:
-  - equip{item=plasma_dash_5:0;delay=6} ~onSpawn
-  - remove{delay=8} @self ~onSpawn
-Plasma_Dash_6:
-  Type: ARMOR_STAND
-  Pose:
-      RightArm: 0,90,90
-  ItemHand: plasma_dash_6
-  Options:
-    Invisible: true
-    VisibleByDefault: true
-    Silent: true
-    PreventOtherDrops: true
-    Despawn: true
-    NoGravity: true
-    Marker: true
-    Invincible: true
-    HasArms: true
-  Skills:
-  - equip{item=plasma_dash_6:0;delay=7} ~onSpawn
-  - remove{delay=9} @self ~onSpawn
-Plasma_Dash_7:
-  Type: ARMOR_STAND
-  Pose:
-      RightArm: 0,90,90
-  ItemHand: plasma_dash_7
-  Options:
-    Invisible: true
-    VisibleByDefault: true
-    Silent: true
-    PreventOtherDrops: true
-    Despawn: true
-    NoGravity: true
-    Marker: true
-    Invincible: true
-    HasArms: true
-  Skills:
-  - equip{item=plasma_dash_7:0;delay=8} ~onSpawn
-  - remove{delay=10} @self ~onSpawn
+  - equip{item=plasma_dash_2:0;delay=4} ~onSpawn
+  - equip{item=plasma_dash_3:0;delay=6} ~onSpawn
+  - equip{item=plasma_dash_4:0;delay=8} ~onSpawn
+  - equip{item=plasma_dash_5:0;delay=10} ~onSpawn
+  - equip{item=plasma_dash_6:0;delay=12} ~onSpawn
+  - equip{item=plasma_dash_7:0;delay=14} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+
