@@ -34,7 +34,7 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, -28.5, -42.25],
+			"translation": [0, -28.5, 10.25],
 			"scale": [1.5, 1.5, 1.5]
 		},
 		"thirdperson_lefthand": {
