@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "plasma_slash_1",
-		"particle": "plasma_slash_1"
+		"0": "plasma_slash/plasma_slash_1"
 	},
 	"elements": [
 		{
