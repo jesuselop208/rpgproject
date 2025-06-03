@@ -70,14 +70,17 @@ Plasma_Boost:
 
 Plasma_Dimensional_Slash:
   Conditions:
-  - score{objective=dimensional_slash_cd;v=>0} false
+  - score{objective=dimensional_slash_cd;value=>0} false
   TargetConditions:
   - health{h=<30}
   Skills:
-  - setscore{objective=dimensional_slash_cd;value=30;duration=30} @self
+  - setscore{objective=dimensional_slash_cd;value=40;duration=40} @self
   - sound{sound=entity.enderman.teleport;volume=1.2;pitch=1.4} @self
-  - teleport{preservepitch=true;preserveyaw=true} @targetLocation{f=0.5;y=0.1;}
-  - sound{sound=entity.player.attack.crit;volume=1.5;pitch=0.8} @self
-  - particle{p=crit;a=30;hs=0.4;vs=0.1;speed=0.2;repeat=3;repeati=1} @target
+  - teleport{} @targetLocation{f=0.3;y=0.3}
+  - sound{sound=entity.player.attack.crit;volume=1.6;pitch=0.9} @self
+  - particleline{particle=crit;points=10;radius=0.2;length=2;duration=10;step=0.2;hS=0.1;vS=0.1} @target
+  - particlelinehelix{particle=soul_fire_flame;radius=0.4;points=20;helixes=2;height=1.5} @target
+  - summon{type=Plasma_Slash_3;amount=1;r=0;yr=0;onsurface=true} @targetLocation{y=0.1}
   - damage{amount=14;ignorearmor=true;damagecause=PROJECTILE} @target
-  - actionmessage{message="&c&l¡Corte Dimensional!"} @self
+  - actionmessage{message="<gradient:#72C1E4:#3685EC>¡CORTE DIMENSIONAL!"} @self
+
