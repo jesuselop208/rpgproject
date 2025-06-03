@@ -68,7 +68,7 @@ Plasma_Slash_3:
 Plasma_Dash_1:
   Type: ARMOR_STAND
   Pose:
-      RightArm: 90,0,0
+      RightArm: -90,0,0
   ItemHand: plasma_dash_1
   Options:
     Invisible: true
