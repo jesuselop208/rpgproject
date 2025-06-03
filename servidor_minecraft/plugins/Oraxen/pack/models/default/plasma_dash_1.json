@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "plasma_dash/plasma_dash_1",
-		"emissive": "plasma_dash/emissive/plasma_dash_1_e"
+		"0": "plasma_dash/plasma_dash_1",
+		"particle": "plasma_dash/plasma_dash_1"
 	},
 	"elements": [
 		{
