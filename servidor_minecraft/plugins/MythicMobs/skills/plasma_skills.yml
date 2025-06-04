@@ -56,13 +56,13 @@ Plasma_Boost:
   - sound{sound=minecraft:plasma_boost_sound;pitch=1.6;volume=0.4} @self
   - sound{sound=minecraft:plasma_boost_end_sound;pitch=2;volume=0.2;delay=120} @self
   - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.8;volume=0.2} @self
-  - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.7;volume=0.2;delay=10} @self
-  - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.6;volume=0.2;delay=20} @self
-  - sound{sound=minecraft:plasma_boost_sound_main_pickaxe;pitch=0.7;volume=0.5} @self
+  - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.7;volume=0.3;delay=10} @self
+  - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.6;volume=0.4;delay=20} @self
+  - sound{sound=minecraft:plasma_boost_sound_main_pickaxe;pitch=0.7;volume=0.2} @self
 
 Plasma_Boost_Wave:
   Skills:
-  - effect:blockWave{velocity=3;radius=3;shape=SPHERE;horizontalvelocity=3;noise=1.5;duration=40;delay=80}
+  - effect:blockWave{velocity=3;radius=3;shape=SPHERE;horizontalvelocity=3;noise=1.5;duration=40;delay=65;material=STONE} @selfLocation{}
 
 Plasma_Dimensional_Slash:
   Conditions:
