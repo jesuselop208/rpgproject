@@ -33,18 +33,6 @@ plasma_pickaxe:
     - textures/plasma_pickaxe
     custom_model_data: 1007
 
-plasma_boost:
-  displayname: plasma_boost
-  material: PAPER
-  name: oraxen:modifier
-  key: oraxen:modifier
-  Pack:
-    generate_model: false
-    model: default/plasmas_slash_1
-    custom_model_data: 1040
-    textures:
-    - textures/plasma_boost_fx
-
 plasma_slash_1:
   displayname: plasma_slash_1
   material: PAPER
