@@ -43,7 +43,7 @@ plasma_boost:
     model: default/plasmas_slash_1
     custom_model_data: 1040
     textures:
-    - textures/plasma_slash_1
+    - textures/plasma_boost_fx
 
 plasma_slash_1:
   displayname: plasma_slash_1
