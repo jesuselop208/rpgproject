@@ -53,7 +53,12 @@ Plasma_Boost:
   - potion{type=SPEED;duration=160;ambientparticles=false;l=1;hasparticles=false;hasicon=false} @self
   - particle{p=soul_fire_flame;amount=15;vspread=1;hs=1.5;delay=160;forwardoffset=1} @self
   - sound{sound=minecraft:plasma_boost_sound;pitch=1.6;volume=0.4} @self
+  - sound{sound=minecraft:plasma_boost_sound;pitch=1.6;volume=0.4} @self
   - sound{sound=minecraft:plasma_boost_end_sound;pitch=2;volume=0.2;delay=120} @self
+  - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.8;volume=0.2} @self
+  - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.7;volume=0.2;delay=10} @self
+  - sound{sound=minecraft:plasma_boost_sound_end_pickaxe;pitch=0.6;volume=0.2;delay=20} @self
+  - sound{sound=minecraft:plasma_boost_sound_main_pickaxe;pitch=0.7;volume=0.5} @self
 
 Plasma_Dimensional_Slash:
   Conditions:
