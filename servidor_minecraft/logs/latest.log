@@ -2338,3 +2338,20 @@
 [00:07:03] [lumine-scheduler-7/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 [00:07:03] [lumine-scheduler-7/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 [00:07:03] [lumine-scheduler-7/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:31:19] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] 
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[00:31:19] [ForkJoinPool-1-worker-2/INFO]: [ModelEngine] [A] 
+[00:31:19] [ForkJoinPool-1-worker-2/INFO]: [ModelEngine] [A] Importing plasma_boost_fx.bbmodel.
+[00:31:19] [ForkJoinPool-1-worker-2/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[00:31:19] [ForkJoinPool-1-worker-2/WARN]: [ModelEngine] [A] --Warn: Texture name Plasma Pickaxe:entity/plasma_boost_fx contains non [a-z0-9/._-] characters. Using alternative texture name modelengine:entity/c2eed84d-6396-3555-8021-5a2789c871d9.
+[00:31:19] [ForkJoinPool-1-worker-2/WARN]: [ModelEngine] [A] --Warn: Texture name Plasma Pickaxe:entity/plasma_boost_fx_e contains non [a-z0-9/._-] characters. Using alternative texture name modelengine:entity/20b1cfc7-cab2-3c5f-8902-0014ea445aa6.
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] 
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] 1 models loaded.
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] 
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 83.5ms
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 122.2ms
+[00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 89.9ms
