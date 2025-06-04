@@ -100,6 +100,7 @@ Plasma_Boost:
     Invisible: true
     Invincible: true
   Skills:
+  - teleportto{repeat=20;repeatinterval=0;target=@owner} @owner ~onSpawn
   - model{mid=plasma_boost_fx;n=false} @self ~onSpawn
   - state{s=skill} @self ~onSpawn
-  - remove{delay=40} @self ~onSpawn
+  - remove{delay=100} @self ~onSpawn

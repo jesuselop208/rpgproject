@@ -1,1 +1,1 @@
-{"overrides":[{"predicate":{"custom_model_data":2},"model":"modelengine:plasma_boost_fx/plasma_boost_fx_bone"}],"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/leather_horse_armor"}}
+{"overrides":[{"predicate":{"custom_model_data":1},"model":"modelengine:soul_scythe/body"},{"predicate":{"custom_model_data":2},"model":"modelengine:plasma_boost_fx/plasma_boost_fx_bone"}],"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/leather_horse_armor"}}
