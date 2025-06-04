@@ -46,6 +46,7 @@ Plasma_Boost:
   OnCooldownSkill:
   - skill{skill=PlasmaBoostCD}
   Skills:
+  - summon{type=Plasma_Boost;amount=1;radius=0;yRadius=0} @self
   - onblockbreak{aura=Plasma_Boost_Aura;charges=5;onbreakskill=Plasma_Boost;} @self
   - particles{p=glow;amount=15;repeat=15;repeati=10;vspread=0.5;hspread=1.5} @self
   - potion{type=HASTE;duration=160;ambientparticles=false;l=2;hasparticles=false} @self

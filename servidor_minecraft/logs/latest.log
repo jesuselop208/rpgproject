@@ -2355,3 +2355,127 @@
 [00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 83.5ms
 [00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 122.2ms
 [00:31:19] [Craft Scheduler Thread - 20 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 89.9ms
+[00:38:24] [Server thread/INFO]: [Mythic] Reloading plugin...
+[00:38:24] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[00:38:24] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[00:38:24] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[00:38:25] [Server thread/INFO]: [MythicMobs] Loading Items...
+[00:38:25] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[00:38:25] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[00:38:25] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[00:38:25] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[00:38:25] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 13 mobs.
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 12 skills.
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 20 mythic items.
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[00:38:25] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[00:38:26] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[00:38:26] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[00:38:26] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[00:38:33] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[00:39:06] [Server thread/INFO]: [Mythic] Reloading plugin...
+[00:39:06] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[00:39:06] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[00:39:06] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[00:39:07] [Server thread/INFO]: [MythicMobs] Loading Items...
+[00:39:07] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[00:39:07] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[00:39:07] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[00:39:07] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[00:39:07] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 13 mobs.
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 12 skills.
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 20 mythic items.
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[00:39:07] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[00:39:07] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[00:39:07] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[00:39:07] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[00:39:11] [Server thread/INFO]: elyisus_xdd issued server command: /mm items give elyisus_xdd plasma_pickaxe
+[00:39:13] [lumine-scheduler-13/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[00:39:13] [lumine-scheduler-13/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:39:13] [lumine-scheduler-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:39:17] [lumine-scheduler-15/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[00:39:17] [lumine-scheduler-15/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[00:39:17] [lumine-scheduler-15/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:44:02] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[00:44:02] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[00:44:02] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[00:44:02] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[00:44:02] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[00:44:02] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[00:44:02] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[00:44:02] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[00:44:02] [Server thread/INFO]: Oraxen | Successfully reloaded
+[00:44:02] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[00:44:02] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[00:44:02] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[00:44:02] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[00:44:03] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[00:44:03] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[00:44:03] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[00:44:03] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[00:44:03] [Server thread/INFO]: 
+[00:44:03] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[00:44:03] [Server thread/INFO]: 
+[00:44:03] [Server thread/INFO]: Oraxen | Successfully reloaded
+[00:44:03] [Server thread/INFO]: Oraxen | Successfully reloaded
+[00:44:03] [Craft Scheduler Thread - 21 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[00:44:05] [Craft Scheduler Thread - 21 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=7957bdc90daf86d864205d75c33199bdebdbec09 in 1781 ms
+[00:44:05] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[00:44:05] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] 
+[00:44:05] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[00:44:05] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[00:44:05] [ForkJoinPool-1-worker-3/INFO]: [ModelEngine] [A] 
+[00:44:05] [ForkJoinPool-1-worker-3/INFO]: [ModelEngine] [A] Importing plasma_boost_fx.bbmodel.
+[00:44:05] [ForkJoinPool-1-worker-3/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[00:44:05] [ForkJoinPool-1-worker-3/WARN]: [ModelEngine] [A] --Warn: Texture name Plasma Pickaxe:entity/plasma_boost_fx contains non [a-z0-9/._-] characters. Using alternative texture name modelengine:entity/c2eed84d-6396-3555-8021-5a2789c871d9.
+[00:44:05] [ForkJoinPool-1-worker-3/WARN]: [ModelEngine] [A] --Warn: Texture name Plasma Pickaxe:entity/plasma_boost_fx_e contains non [a-z0-9/._-] characters. Using alternative texture name modelengine:entity/20b1cfc7-cab2-3c5f-8902-0014ea445aa6.
+[00:44:05] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] 
+[00:44:05] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] 1 models loaded.
+[00:44:06] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] 
+[00:44:06] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[00:44:06] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[00:44:06] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 17.1ms
+[00:44:06] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 28.2ms
+[00:44:06] [Craft Scheduler Thread - 40 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 72.4ms
