@@ -4395,3 +4395,79 @@
 [01:33:56] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 8.8ms
 [01:33:56] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 13.0ms
 [01:33:56] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 49.3ms
+[01:38:27] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/WARN]: [ModelEngine] [A] Unable to read the model ID cache file. If the file is missing, ignore this warning.
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 7,667,116.6ms
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 13.0ms
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 49.3ms
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:38:27] [Craft Scheduler Thread - 61 - ModelEngine/INFO]: [ModelEngine] [A] 0 models loaded.
+[01:39:29] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/WARN]: [ModelEngine] [A] Unable to read the model ID cache file. If the file is missing, ignore this warning.
+[01:39:29] [ForkJoinPool-1-worker-9/INFO]: [ModelEngine] [A] 
+[01:39:29] [ForkJoinPool-1-worker-9/INFO]: [ModelEngine] [A] Importing plasma_boost_fx.bbmodel.
+[01:39:29] [ForkJoinPool-1-worker-9/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[01:39:29] [ForkJoinPool-1-worker-9/WARN]: [ModelEngine] [A] --Warn: Texture name Plasma Pickaxe:entity/plasma_boost_fx contains non [a-z0-9/._-] characters. Using alternative texture name modelengine:entity/c2eed84d-6396-3555-8021-5a2789c871d9.
+[01:39:29] [ForkJoinPool-1-worker-9/WARN]: [ModelEngine] [A] --Warn: Texture name Plasma Pickaxe:entity/plasma_boost_fx_e contains non [a-z0-9/._-] characters. Using alternative texture name modelengine:entity/20b1cfc7-cab2-3c5f-8902-0014ea445aa6.
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A] 1 models loaded.
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 8.0ms
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 15.6ms
+[01:39:29] [Craft Scheduler Thread - 64 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 35.9ms
+[01:41:47] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[01:41:47] [ForkJoinPool-1-worker-10/INFO]: [ModelEngine] [A] 
+[01:41:47] [ForkJoinPool-1-worker-10/INFO]: [ModelEngine] [A] Importing plasma_boost_fx.bbmodel.
+[01:41:47] [ForkJoinPool-1-worker-10/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[01:41:47] [ForkJoinPool-1-worker-10/WARN]: [ModelEngine] [A] --Warn: Texture name Plasma Pickaxe:entity/plasma_boost_fx contains non [a-z0-9/._-] characters. Using alternative texture name modelengine:entity/c2eed84d-6396-3555-8021-5a2789c871d9.
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 1 models loaded.
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 5.8ms
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 8.7ms
+[01:41:47] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 32.8ms
+[01:42:27] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[01:42:27] [ForkJoinPool-1-worker-10/INFO]: [ModelEngine] [A] 
+[01:42:27] [ForkJoinPool-1-worker-10/INFO]: [ModelEngine] [A] Importing plasma_boost_fx.bbmodel.
+[01:42:27] [ForkJoinPool-1-worker-10/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 1 models loaded.
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] 
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 6.7ms
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 9.8ms
+[01:42:27] [Craft Scheduler Thread - 52 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 41.5ms
+[01:45:49] [lumine-scheduler-33/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:45:49] [lumine-scheduler-33/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:45:49] [lumine-scheduler-33/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
