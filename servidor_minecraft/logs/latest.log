@@ -2705,3 +2705,355 @@
 [01:05:25] [lumine-scheduler-22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 [01:05:25] [lumine-scheduler-22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 [01:05:25] [lumine-scheduler-22/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:08:27] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[01:08:27] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[01:08:27] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:08:27] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:08:27] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[01:08:27] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[01:08:27] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:08:27] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:08:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:08:27] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[01:08:27] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[01:08:27] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[01:08:27] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[01:08:27] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[01:08:27] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[01:08:27] [Server thread/INFO]: Oraxen | Found invalid texture-path inside model-file assets/modelengine/models/plasma_boost_fx/root.json: modelengine:entity/c2eed84d-6396-3555-8021-5a2789c871d9
+[01:08:27] [Server thread/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[01:08:27] [Server thread/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[01:08:27] [Server thread/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+
+[01:08:27] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[01:08:27] [Server thread/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[01:08:27] [Server thread/INFO]: 
+[01:08:27] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[01:08:27] [Server thread/INFO]: 
+[01:08:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:08:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:08:28] [Craft Scheduler Thread - 21 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[01:08:30] [Craft Scheduler Thread - 21 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=8444890a22124b3b4a77709f000fa1cfeda42dbf in 1793 ms
+[01:09:09] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[01:09:09] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[01:09:09] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:09:09] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:09:09] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[01:09:09] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[01:09:09] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:09:09] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:09:09] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:09:09] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[01:09:09] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[01:09:09] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[01:09:09] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[01:09:09] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[01:09:09] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[01:09:09] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[01:09:09] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[01:09:09] [Server thread/INFO]: 
+[01:09:09] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[01:09:09] [Server thread/INFO]: 
+[01:09:09] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:09:09] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:09:10] [Craft Scheduler Thread - 42 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[01:09:12] [Craft Scheduler Thread - 42 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=ea755b27e2a8960c4f9e4c72df90f003a8809974 in 1753 ms
+[01:09:38] [lumine-scheduler-23/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:09:38] [lumine-scheduler-23/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:09:38] [lumine-scheduler-23/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:09:42] [lumine-scheduler-23/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:09:42] [lumine-scheduler-23/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:09:42] [lumine-scheduler-23/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:10:42] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[01:10:42] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[01:10:42] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:10:42] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:10:42] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[01:10:42] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[01:10:42] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:10:42] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:10:42] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:10:42] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[01:10:42] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[01:10:42] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[01:10:42] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[01:10:42] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[01:10:42] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[01:10:43] [Server thread/INFO]: Oraxen | Found invalid texture-path inside model-file assets/modelengine/models/plasma_boost_fx/root.json: plasma_boost_fx/plasma_boost_fx
+[01:10:43] [Server thread/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[01:10:43] [Server thread/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[01:10:43] [Server thread/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+
+[01:10:43] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[01:10:43] [Server thread/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[01:10:43] [Server thread/INFO]: 
+[01:10:43] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[01:10:43] [Server thread/INFO]: 
+[01:10:43] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:10:43] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:10:43] [Craft Scheduler Thread - 51 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[01:10:45] [Craft Scheduler Thread - 51 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=96f710c1455d84544aff9cf9d1e8eceedcb6fa6d in 1743 ms
+[01:11:20] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[01:11:20] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[01:11:20] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:11:20] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:11:20] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[01:11:20] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[01:11:20] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:11:20] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:11:20] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:11:20] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[01:11:20] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[01:11:20] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[01:11:20] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[01:11:20] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[01:11:20] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[01:11:20] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[01:11:20] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[01:11:20] [Server thread/INFO]: 
+[01:11:20] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[01:11:20] [Server thread/INFO]: 
+[01:11:20] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:11:20] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:11:21] [Craft Scheduler Thread - 50 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[01:11:23] [Craft Scheduler Thread - 50 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=e648608cedf739414575cdef05d1b1e1f46f054b in 1726 ms
+[01:11:43] [lumine-scheduler-20/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:11:43] [lumine-scheduler-20/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:11:43] [lumine-scheduler-20/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:11:47] [lumine-scheduler-24/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:11:47] [lumine-scheduler-24/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:11:47] [lumine-scheduler-24/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:12:55] [lumine-scheduler-24/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:12:55] [lumine-scheduler-24/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:12:55] [lumine-scheduler-24/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:12:59] [lumine-scheduler-24/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:12:59] [lumine-scheduler-24/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:12:59] [lumine-scheduler-24/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:13:25] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[01:13:25] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[01:13:25] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:13:25] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:13:25] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[01:13:25] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[01:13:25] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:13:25] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:13:26] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:13:26] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[01:13:26] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[01:13:26] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[01:13:26] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[01:13:26] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[01:13:26] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[01:13:26] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[01:13:26] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[01:13:26] [Server thread/INFO]: 
+[01:13:26] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[01:13:26] [Server thread/INFO]: 
+[01:13:26] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:13:26] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:13:26] [Craft Scheduler Thread - 21 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[01:13:28] [Craft Scheduler Thread - 21 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=3056e48e2ba1b24e01d930e6526daaa35026cad8 in 1798 ms
+[01:13:49] [lumine-scheduler-25/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:13:49] [lumine-scheduler-25/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:13:49] [lumine-scheduler-25/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:13:53] [lumine-scheduler-24/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:13:53] [lumine-scheduler-24/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:13:53] [lumine-scheduler-24/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:14:26] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[01:14:26] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[01:14:26] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:14:26] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:14:26] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[01:14:26] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[01:14:26] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[01:14:26] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[01:14:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:14:27] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[01:14:27] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[01:14:27] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[01:14:27] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[01:14:27] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[01:14:27] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[01:14:27] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[01:14:27] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[01:14:27] [Server thread/INFO]: 
+[01:14:27] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[01:14:27] [Server thread/INFO]: 
+[01:14:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:14:27] [Server thread/INFO]: Oraxen | Successfully reloaded
+[01:14:27] [Craft Scheduler Thread - 42 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[01:14:29] [Craft Scheduler Thread - 42 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=7ccf842baffc2d0b0ffa17e69c98d6ef5c482657 in 1735 ms
+[01:14:43] [lumine-scheduler-24/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:14:43] [lumine-scheduler-24/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:14:43] [lumine-scheduler-24/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:14:47] [lumine-scheduler-25/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:14:47] [lumine-scheduler-25/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:14:47] [lumine-scheduler-25/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
