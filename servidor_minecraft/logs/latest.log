@@ -6120,3 +6120,30 @@
 [02:11:37] [lumine-scheduler-47/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 [02:11:37] [lumine-scheduler-47/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 [02:11:37] [lumine-scheduler-47/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:25:49] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[02:25:49] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[02:25:49] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:25:49] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:25:49] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[02:25:49] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[02:25:49] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:25:49] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:25:49] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:25:49] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[02:25:49] [Server thread/INFO]: Oraxen | Resourcepack successfully regenerated
+[02:25:49] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[02:25:49] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[02:25:49] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[02:25:49] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[02:25:49] [Server thread/INFO]: Oraxen | No broken models or textures were found in the resourcepack
+
+[02:25:49] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[02:25:49] [Server thread/INFO]: 
+[02:25:49] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[02:25:49] [Server thread/INFO]: 
+[02:25:49] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:25:49] [Server thread/INFO]: Oraxen | Successfully reloaded
+[02:25:50] [Craft Scheduler Thread - 80 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:25:52] [Craft Scheduler Thread - 80 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=96864bb29651399b272ae0b955f71e2b0e75ffee in 1805 ms

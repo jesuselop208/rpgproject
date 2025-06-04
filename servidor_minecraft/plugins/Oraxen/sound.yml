@@ -23,6 +23,14 @@ sounds:
   plasma_boost_end_sound:
     category: master
     sound: plasma_boost_end_sound.ogg
+  
+  plasma_boost_sound_end_pickaxe:
+    category: master
+    sound: plasma_boost_sound_end_pickaxe.ogg
+  
+  plasma_boost_sound_main_pickaxe:
+    category: master
+    sound: plasma_boost_sound_main_pickaxe.ogg
 
   welcome:
     category: record
