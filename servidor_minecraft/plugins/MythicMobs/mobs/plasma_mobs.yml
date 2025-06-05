@@ -106,3 +106,24 @@ Plasma_Boost:
   - skill{skill=Plasma_Boost_Wave} @selfLocation ~onSpawn
 
 Plasma_Boost_Explosion_FX:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: plasma_boost_explosion
+  Options:
+    Invisible: true
+    VisibleByDefault: true
+    Silent: true
+    PreventOtherDrops: true
+    NoGravity: true
+    Marker: true
+    Invincible: true
+    HasArms: true
+  Skills:
+  - equip{item=plasma_boost_explosion:0;delay=2} ~onSpawn
+  - equip{item=plasma_boost_explosion_2:0;delay=4} ~onSpawn
+  - equip{item=plasma_boost_explosion_3:0;delay=6} ~onSpawn
+  - equip{item=plasma_boost_explosion_4:0;delay=8} ~onSpawn
+  - equip{item=plasma_boost_explosion_5:0;delay=10} ~onSpawn
+  - equip{item=plasma_boost_explosion_6:0;delay=12} ~onSpawn
+  - remove{delay=13} @self ~onSpawn

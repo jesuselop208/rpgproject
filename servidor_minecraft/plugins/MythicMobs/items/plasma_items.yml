@@ -135,3 +135,40 @@ plasma_dash_7:
   Model: 1054
   Hide:
   - ATTRIBUTES
+
+plasma_boost_explosion:
+  Id: paper
+  Display: "&6"
+  Model: 1055
+  Hide:
+  - ATTRIBUTES
+plasma_boost_explosion_2:
+  Id: paper
+  Display: "&6"
+  Model: 1056
+  Hide:
+  - ATTRIBUTES
+plasma_boost_explosion_3:
+  Id: paper
+  Display: "&6"
+  Model: 1057
+  Hide:
+  - ATTRIBUTES
+plasma_boost_explosion_4:
+  Id: paper
+  Display: "&6"
+  Model: 1058
+  Hide:
+  - ATTRIBUTES
+plasma_boost_explosion_5:
+  Id: paper
+  Display: "&6"
+  Model: 1059
+  Hide:
+  - ATTRIBUTES
+plasma_boost_explosion_6:
+  Id: paper
+  Display: "&6"
+  Model: 1060
+  Hide:
+  - ATTRIBUTES
