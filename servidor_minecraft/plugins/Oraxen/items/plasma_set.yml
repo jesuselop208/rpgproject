@@ -206,3 +206,75 @@ plasma_dash_7:
     custom_model_data: 1054
     textures:
     - textures/plasma_dash_7
+
+plasma_boost_explosion:
+  displayname: plasma_boost_explosion
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_boost_explosion_fx
+    textures:
+    - textures/plasma_boost_explosion_fx_1
+    custom_model_data: 1055
+
+plasma_boost_explosion_2:
+  displayname: plasma_boost_explosion_2
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_boost_explosion_fx_2
+    textures:
+    - textures/plasma_boost_explosion_fx_2
+    custom_model_data: 1056
+
+plasma_boost_explosion_3:
+  displayname: plasma_boost_explosion_3
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_boost_explosion_fx_3
+    textures:
+    - textures/plasma_boost_explosion_fx_3
+    custom_model_data: 1057
+
+plasma_boost_explosion_4:
+  displayname: plasma_boost_explosion_4
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_boost_explosion_fx_4
+    textures:
+    - textures/plasma_boost_explosion_fx_4
+    custom_model_data: 1058
+
+plasma_boost_explosion_5:
+  displayname: plasma_boost_explosion_5
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_boost_explosion_fx_5
+    textures:
+    - textures/plasma_boost_explosion_fx_5
+    custom_model_data: 1059
+
+plasma_boost_explosion_6:
+  displayname: plasma_boost_explosion_6
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_boost_explosion_fx_6
+    textures:
+    - textures/plasma_boost_explosion_fx_6
+    custom_model_data: 1060

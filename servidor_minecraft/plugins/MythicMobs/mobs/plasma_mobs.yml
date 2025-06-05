@@ -104,3 +104,5 @@ Plasma_Boost:
   - state{s=skill} @self ~onSpawn
   - remove{delay=80} @self ~onSpawn
   - skill{skill=Plasma_Boost_Wave} @selfLocation ~onSpawn
+
+Plasma_Boost_Explosion_FX:
