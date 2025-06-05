@@ -46,7 +46,6 @@ Plasma_Boost:
   OnCooldownSkill:
   - skill{skill=PlasmaBoostCD}
   Skills:
-  - summon{type=Plasma_Boost_Explosion_FX;amount=1;r=0;yr=0;onsurface=true;delay=120} @selfLocation{y=0.1}
   - summon{type=Plasma_Boost;amount=1;radius=0;yRadius=0} @self
   - onblockbreak{aura=Plasma_Boost_Aura;charges=5;onbreakskill=Plasma_Boost;} @self
   - particles{p=glow;amount=15;repeat=15;repeati=10;vspread=0.5;hspread=1.5} @self
