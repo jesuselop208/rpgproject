@@ -13,7 +13,7 @@ plasma_sword:
   Skills:
   - skill{skill=Plasma_Slash;cooldown=1} @self ~onSwing
   - skill{skill=Plasma_Slash;cooldown=1} @self ~onAttack
-  - skill{skill=Plasma_Dimensional_Slash} @target ~onAttack
+  - skill{skill=Plasma_Dimensional_Slash;cd=5} @target ~onAttack
   - skill{skill=PlasmaDash;cooldown=5} 
   - skill{skill=PlasmaDashCD} @self
 
@@ -34,7 +34,7 @@ plasma_pickaxe:
     Unbreakable: true
     PreventStacking: true
   Skills:
-  - skill{skill=Plasma_Boost;cd=15} @self ~onBlockBreak
+  - skill{skill=Plasma_Boost;cd=30} @self ~onBlockBreak
   - skill{skill=PlasmaBoostCD} @self ~onBlockBreak
 
 plasma_slash_1:
