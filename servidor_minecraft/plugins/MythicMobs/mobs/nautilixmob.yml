@@ -1,0 +1,8 @@
+nautiix:
+  Display: Nautilix
+  Type: PIG
+  Options:
+    MovementSpeed: 0.3
+    Despawn: true
+    PreventOtherDrops: true
+    PreventTransformation: false
