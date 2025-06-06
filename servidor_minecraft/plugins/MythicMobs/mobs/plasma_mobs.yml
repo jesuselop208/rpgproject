@@ -128,3 +128,28 @@ Plasma_Boost_Explosion_FX:
   - equip{item=plasma_boost_explosion_5:0;delay=10} ~onSpawn
   - equip{item=plasma_boost_explosion_6:0;delay=12} ~onSpawn
   - remove{delay=13} @self ~onSpawn
+
+Plasma_Powerup_FX:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: plasma_powerup_1
+  Options:
+    Invisible: true
+    VisibleByDefault: true
+    Silent: true
+    PreventOtherDrops: true
+    NoGravity: true
+    Marker: true
+    Invincible: true
+    HasArms: true
+  Skills:
+  - equip{item=plasma_powerup_1:0;delay=2} ~onSpawn
+  - equip{item=plasma_powerup_2:0;delay=3} ~onSpawn
+  - equip{item=plasma_powerup_3:0;delay=4} ~onSpawn
+  - equip{item=plasma_powerup_4:0;delay=5} ~onSpawn
+  - equip{item=plasma_powerup_5:0;delay=6} ~onSpawn
+  - equip{item=plasma_powerup_6:0;delay=7} ~onSpawn
+  - equip{item=plasma_powerup_7:0;delay=8} ~onSpawn
+  - equip{item=plasma_powerup_8:0;delay=9} ~onSpawn
+  - remove{delay=10} @self ~onSpawn

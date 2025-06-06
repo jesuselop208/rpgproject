@@ -172,3 +172,52 @@ plasma_boost_explosion_6:
   Model: 1060
   Hide:
   - ATTRIBUTES
+
+plasma_powerup_1:
+  Id: paper
+  Display: "&6"
+  Model: 1061
+  Hide:
+  - ATTRIBUTES
+plasma_powerup_2:
+  Id: paper
+  Display: "&6"
+  Model: 1062
+  Hide:
+  - ATTRIBUTES
+plasma_powerup_3:
+  Id: paper
+  Display: "&6"
+  Model: 1063
+  Hide:
+  - ATTRIBUTES
+plasma_powerup_4:
+  Id: paper
+  Display: "&6"
+  Model: 1064
+  Hide:
+  - ATTRIBUTES
+plasma_powerup_5:
+  Id: paper
+  Display: "&6"
+  Model: 1065
+  Hide:
+  - ATTRIBUTES
+plasma_powerup_6:
+  Id: paper
+  Display: "&6"
+  Model: 1066
+  Hide:
+  - ATTRIBUTES
+plasma_powerup_7:
+  Id: paper
+  Display: "&6"
+  Model: 1067
+  Hide:
+  - ATTRIBUTES
+plasma_powerup_8:
+  Id: paper
+  Display: "&6"
+  Model: 1068
+  Hide:
+  - ATTRIBUTES

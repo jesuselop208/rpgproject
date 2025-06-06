@@ -42,10 +42,11 @@ PlasmaDash:
   - sound{sound=minecraft:plasma_dash_sound;volume=1.5;pitch=1.6} @allInRadius{radius=5;targetself=true}
 
 Plasma_Boost:
-  Cooldown: 15
+  Cooldown: 0
   OnCooldownSkill:
   - skill{skill=PlasmaBoostCD}
   Skills:
+  - summon{type=Plasma_Powerup_FX;amount=1;radius=0;yRadius=0} @self
   - summon{type=Plasma_Boost;amount=1;radius=0;yRadius=0} @self
   - onblockbreak{aura=Plasma_Boost_Aura;charges=5;onbreakskill=Plasma_Boost;} @self
   - particles{p=glow;amount=15;repeat=15;repeati=10;vspread=0.5;hspread=1.5} @self
@@ -70,6 +71,8 @@ Plasma_Dimensional_Slash:
   TargetConditions:
   - health{h=<30}
   Skills:
+  - summon{type=Plasma_Powerup_FX;amount=1;radius=0;yRadius=0;onsurface=true} @self
+  - summon{type=Plasma_Powerup_FX;amount=1;radius=0;yRadius=0;onsurface=tru;delay=3} @self
   - setscore{objective=dimensional_slash_cd;value=40;duration=40} @self
   - sound{sound=entity.enderman.teleport;volume=1.2;pitch=1.4} @self
   - teleport{} @targetLocation{f=0.3;y=0.3}
