@@ -278,3 +278,92 @@ plasma_boost_explosion_6:
     textures:
     - textures/plasma_boost_explosion_fx_6
     custom_model_data: 1060
+
+plasma_boost_powerup_1:
+  displayname: plasma_powerup_1
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx
+    textures:
+    - textures/plasma_power_up_fx
+    custom_model_data: 1061
+plasma_boost_powerup_2:
+  displayname: plasma_powerup_2
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx_2
+    textures:
+    - textures/plasma_power_up_fx_2
+    custom_model_data: 1062
+plasma_boost_powerup_3:
+  displayname: plasma_powerup_3
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx_3
+    textures:
+    - textures/plasma_power_up_fx_3
+    custom_model_data: 1063
+plasma_boost_powerup_4:
+  displayname: plasma_powerup_4
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx_4
+    textures:
+    - textures/plasma_power_up_fx_4
+    custom_model_data: 1064
+plasma_boost_powerup_5:
+  displayname: plasma_powerup_5
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx_5
+    textures:
+    - textures/plasma_power_up_fx_5
+    custom_model_data: 1065
+plasma_boost_powerup_6:
+  displayname: plasma_powerup_6
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx_6
+    textures:
+    - textures/plasma_power_up_fx_6
+    custom_model_data: 1066
+plasma_boost_powerup_7:
+  displayname: plasma_powerup_7
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx_7
+    textures:
+    - textures/plasma_power_up_fx_7
+    custom_model_data: 1067
+plasma_boost_powerup_8:
+  displayname: plasma_powerup_8
+  material: PAPER
+  name: oraxen:modifier
+  key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/plasma_power_up_fx_8
+    textures:
+    - textures/plasma_power_up_fx_8
+    custom_model_data: 1068
