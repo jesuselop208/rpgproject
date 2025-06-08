@@ -23,7 +23,7 @@ Model-Generator:
   Namespace: modelengine
   Create-Zip: true
   Create-Atlas: true
-  Create-Shader: true
+  Create-Shader: false
   Create-MC-META: true
   Item-Model: LEATHER_HORSE_ARMOR
   Item-Models: []
