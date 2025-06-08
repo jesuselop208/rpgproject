@@ -1,8 +1,16 @@
 nautiix:
   Display: Nautilix
   Type: PIG
+  AIGoalSelectors:
+  - clear
+  - randomStroll
+  - randomLookAround
+  - lookAtPlayer{range=2}
+  - moveToWater{speed=1}
   Options:
     MovementSpeed: 0.3
     Despawn: true
     PreventOtherDrops: true
     PreventTransformation: false
+  Skills:
+  - model{m=nautilix;h=true;usm=true;showhitbox=true;hitboxscale=1;} @self  ~onSpawn 
