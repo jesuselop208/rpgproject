@@ -1,6 +1,6 @@
 Model-Engine:
   Print-Script-Warnings: false
-  Use-State-Machine: false
+  Use-State-Machine: true
   Engine-Threads: 4
   Max-Engine-Threads: 10
   Default-Animations:

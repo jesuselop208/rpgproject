@@ -1,0 +1,20 @@
+Nautilix:
+  Type: DROWNED
+  Display: 'Nautilix'
+  Health: 20
+  AIGoalSelectors:
+    - clear
+    - randomstroll
+    - lookatplayer
+    - randomlookaround
+    - avoidSun
+    - panicWhenOnFire
+    - gotowater{speed=1}
+  Skills:
+  - model{m=nautilix} ~onSpawn @self
+  Options:
+    PreventOtherDrops: true
+    PreventSunburn: true
+    Anger: 0
+    Despawn: true
+    Silent: true
