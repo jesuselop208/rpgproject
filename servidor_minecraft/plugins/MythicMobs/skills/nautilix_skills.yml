@@ -1,6 +1,6 @@
 SitBehavior:
   Skills:
-    - randomskill{s=SitNow} @self
+    - skill{s=SitNow} @self
 
 SitNow:
   Skills:
