@@ -1,3 +1,14 @@
+SitAttempt:
+  Skills:
+    - delay <random.600_900>
+    - skill{s=SitNow} @self
+
+SitSlow:
+  Conditions:
+  - variableeq{var=sitting;scope=caster;value=true} true
+  Skills:
+  - velocity{}
+
 SitNow:
   Skills:
   - effect:particles{p=flame;amount=5;hs=0.2;vs=0.2;speed=0.1} @self
@@ -5,6 +16,6 @@ SitNow:
   - animation{m=nautilix;s=sitting} @self
   - delay 25
   - animation{m=nautilix;s=sitidle;li=10;lo=10} @self
-  - delay <random.500_600>
+  - delay <random.300_400>
   - animation{m=nautilix;s=idle;li=10;lo=10} @self
   - setvariable{var=sitting;type=string;value=false} @self
