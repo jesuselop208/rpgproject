@@ -1,20 +1,11 @@
-SitBehavior:
-  Conditions:
-    - variableEquals{name=sitting;value=false} true cast SitNow 
-  Skills:
-    - effect:particles{p=reddust;a=10;hs=0.5;vs=0.5;speed=0.1} @self
-    - setvariable{var=sitting;type=string;value=true} @self
-    - skill{s=SitNow} @self
-
 SitNow:
+  Conditions:
+    - variableEquals{var=sitting;value=false}
   Skills:
+    - setvariable{var=sitting;type=string;value=true} @self
     - animation{m=nautilix;s=sitting} @self
     - delay 25
     - animation{m=nautilix;s=sitidle} @self
     - delay <randomnumber.min=60.max=160>
     - animation{m=nautilix;s=idle} @self
     - setvariable{var=sitting;type=string;value=false} @self
-
-
-  
-  

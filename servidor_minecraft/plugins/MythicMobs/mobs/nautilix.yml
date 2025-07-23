@@ -11,9 +11,9 @@ Nautilix:
     - panicWhenOnFire
     - gotowater{speed=1}
   Skills:
-  - setVar{var=sitting;type=STRING;scope=target;value=false} @self ~onSpawnorload
   - model{m=nautilix;ko=true;usm=true} ~onSpawn @self
-  - skill{s=SitBehavior} @self ~onTimer:60
+  - setvariable{var=sitting;scope=caster;type=string;value=false} @self ~onSpawn
+  - skill{s=SitNow} @self ~onTimer:60
   Options:
     PreventOtherDrops: true
     PreventSunburn: true
