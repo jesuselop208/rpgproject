@@ -16,3 +16,14 @@ SitNow:
   - potionclear{types=SLOWNESS} @self
   - animation{m=nautilix;s=idle;li=10;lo=10} @self
   - setvariable{var=sitting;type=string;value=false} false @self
+
+CheckStandUp:
+  Conditions:
+    - variableEquals{name=sitting;value=true} true
+  Skills:
+    - skill{s=StandUp} @self
+
+StandUp:
+  Skills:
+    - animation{m=nautilix;s=idle} @self
+    - setvariable{name=sitting;value=false;scope=SKILL}

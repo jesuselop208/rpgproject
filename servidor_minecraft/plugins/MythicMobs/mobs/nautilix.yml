@@ -15,6 +15,7 @@ Nautilix:
   Skills:
   - model{m=nautilix;ko=true;usm=true} ~onSpawn @self
   - skill{s=SitAttempt} @self ~onTimer:500
+  - skill{s=CheckStandUp} ~onDamaged @self
 
   Options:
     PreventOtherDrops: true
