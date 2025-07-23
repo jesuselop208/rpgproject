@@ -1,7 +1,11 @@
 SitBehavior:
+  Conditions:
+  - variableEquals{name=sitting} 
   Skills:
     - animation{m=nautilix;s=sitting} @self
     - delay 25
     - animation{m=nautilix;s=sitidle} @self
+    - setvariable{var=sitting;type=string;value=false} @self
     - delay 120
     - animation{m=nautilix;s=idle} @self
+  
