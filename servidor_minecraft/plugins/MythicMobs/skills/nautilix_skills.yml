@@ -1,17 +1,21 @@
 SitBehavior:
   Conditions:
-  - variableEquals{name=sitting;value=false} true
+    - variableIsSet{variable=sitting} false
+    - variableEquals{var=sitting;value=false} true
   Skills:
-  - setvariable{var=sitting;type=STRING;value=true} @self
-  - skill{s=SitNow} @self
+    - setvariable{var=sitting;type=STRING;value=false} @self
+    - setvariable{var=sitting;type=STRING;value=true} @self
+    - skill{s=SitNow} @self
+
 
 SitNow:
   Skills:
-  - animation{m=nautilix;s=sitting} @self
-  - delay 25
-  - animation{m=nautilix;s=sitidle} @self
-  - delay <randomnumber.min=60.max=160>
-  - animation{m=nautilix;s=idle} @self
-  - setvariable{var=sitting;type=string;value=false} @self
+    - animation{m=nautilix;s=sitting} @self
+    - delay 25
+    - animation{m=nautilix;s=sitidle} @self
+    - delay <randomnumber.min=60.max=160>
+    - animation{m=nautilix;s=idle} @self
+    - setvariable{var=sitting;type=STRING;value=false} @self
+
   
   
