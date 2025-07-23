@@ -13,7 +13,7 @@ Nautilix:
   Skills:
   - model{m=nautilix;ko=true;usm=true} ~onSpawn @self
   - setvariable{var=sitting;scope=caster;type=string;value=false} @self ~onSpawn
-  - skill{s=SitNow} @self ~onTimer:60
+  - skill{s=SitNow} @self ~onTimer:200
   Options:
     PreventOtherDrops: true
     PreventSunburn: true

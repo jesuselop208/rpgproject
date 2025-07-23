@@ -1,11 +1,10 @@
 SitNow:
-  Conditions:
-    - variableEquals{var=sitting;value=false}
   Skills:
-    - setvariable{var=sitting;type=string;value=true} @self
-    - animation{m=nautilix;s=sitting} @self
-    - delay 25
-    - animation{m=nautilix;s=sitidle} @self
-    - delay <randomnumber.min=60.max=160>
-    - animation{m=nautilix;s=idle} @self
-    - setvariable{var=sitting;type=string;value=false} @self
+  - effect:particles{p=flame;amount=5;hs=0.2;vs=0.2;speed=0.1} @self
+  - setvariable{var=sitting;type=string;value=true} @self
+  - animation{m=nautilix;s=sitting} @self
+  - delay 25
+  - animation{m=nautilix;s=sitidle;li=10;lo=10} @self
+  - delay <random.100_200>
+  - animation{m=nautilix;s=idle;li=10;lo=10} @self
+  - setvariable{var=sitting;type=string;value=false} @self
