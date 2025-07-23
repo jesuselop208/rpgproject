@@ -26,5 +26,5 @@ NautilixLove:
   Conditions:
   - raining true
   Skills:
-  - effect:particles{particle=heart;amount=10;hs=0.2;vs=0.2;speed=0.1;repeat=3;repeatinterval=40} @allInRadius{radius=5;targetplayers=true} 
-  - potion{type=REGENERATION;duration=300;level=2;cooldown=25;chance=0.75;repeat=10;repeatinterval=40} @allInRadius{radius=5;targetplayers=true}
+  - effect:particles{particle=heart;amount=10;hs=0.5;vs=0.5;speed=0.1;repeat=3;repeatinterval=40} @EIR{radius=10;livingonly=true;targetplayers=true} 
+  - potion{type=REGENERATION;duration=300;level=2;cooldown=1;repeat=10;repeatinterval=40} @EIR{radius=10;livingonly=true;targetplayers=true}
