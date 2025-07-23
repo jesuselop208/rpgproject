@@ -24,5 +24,5 @@ StandUp:
 
 NautilixLove:
   Skills:
-  - effect:particles{particle=heart;amount=10;hs=0.2;vs=0.2;speed=0.1}
+  - effect:particles{particle=heart;amount=10;hs=0.2;vs=0.2;speed=0.1;repeat=3;repeatinterval=20} @allInRadius{radius=5} ?raining{onpassskill=NautilixLove}
   - potion{type=REGENERATION;duration=300;level=2;cooldown=25;chance=0.75} @allInRadius{radius=5} ?raining{onpassskill=NautilixLove}
