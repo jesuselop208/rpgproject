@@ -5,6 +5,6 @@ SitNow:
   - animation{m=nautilix;s=sitting} @self
   - delay 25
   - animation{m=nautilix;s=sitidle;li=10;lo=10} @self
-  - delay <random.100_200>
+  - delay <random.500_600>
   - animation{m=nautilix;s=idle;li=10;lo=10} @self
   - setvariable{var=sitting;type=string;value=false} @self
