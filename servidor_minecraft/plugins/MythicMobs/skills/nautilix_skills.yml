@@ -1,6 +1,6 @@
 SitAttempt:
   Skills:
-    - delay <random.100_200>
+    - delay <random.700to1200>
     - skill{s=SitNow} @self
 
 SitSlow:
@@ -16,6 +16,6 @@ SitNow:
   - animation{m=nautilix;s=sitting} @self
   - delay 25
   - animation{m=nautilix;s=sitidle;li=10;lo=10} @self
-  - delay <random.300_400>
+  - delay <random.200to350>
   - animation{m=nautilix;s=idle;li=10;lo=10} @self
   - setvariable{var=sitting;type=string;value=false} @self
