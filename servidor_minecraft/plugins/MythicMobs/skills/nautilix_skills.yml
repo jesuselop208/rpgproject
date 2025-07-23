@@ -1,7 +1,7 @@
 SitBehavior:
   Skills:
     - animation{m=nautilix;s=sitting} @self
-    - delay 60
+    - delay 25
     - animation{m=nautilix;s=sitidle} @self
-    - delay <random.int(80,200)>
+    - delay 120
     - animation{m=nautilix;s=idle} @self
