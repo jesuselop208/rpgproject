@@ -31335,3 +31335,474 @@ java.lang.IllegalArgumentException: null
 [04:50:56] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 [04:50:56] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 [04:50:56] [lumine-scheduler-86/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:51:35] [lumine-scheduler-86/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:51:35] [lumine-scheduler-86/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:51:35] [lumine-scheduler-86/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:51:41] [Server thread/WARN]: [MythicMobs] Task #9342 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:52:05] [lumine-scheduler-86/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:52:05] [lumine-scheduler-86/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:52:05] [lumine-scheduler-86/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:52:16] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:52:16] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:52:16] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:52:16] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:52:16] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:52:16] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:52:16] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:52:17] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:52:17] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:52:17] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 16 skills.
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:52:17] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:52:17] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:52:17] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:52:17] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:52:19] [Server thread/INFO]: elyisus_xdd issued server command: /mm mobs spawn Nautilix
+[04:52:19] [lumine-scheduler-86/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:52:19] [lumine-scheduler-86/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:52:19] [lumine-scheduler-86/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:54:21] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:54:21] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:54:21] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:54:21] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:54:22] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:54:22] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:54:22] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:54:22] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:54:22] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:54:22] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 16 skills.
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:54:22] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:54:22] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:54:22] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:54:22] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:54:24] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:25] [Server thread/INFO]: elyisus_xdd issued server command: /mm mobs spawn Nautilix
+[04:54:25] [lumine-scheduler-85/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:54:25] [lumine-scheduler-85/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:54:25] [lumine-scheduler-85/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:54:29] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:29] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:34] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:34] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:39] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:39] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:44] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:44] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:49] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:49] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:54] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:54] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:59] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:54:59] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:04] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:04] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:09] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:09] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:14] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:14] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:19] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:19] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:24] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:24] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:29] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:29] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:34] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:34] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:39] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:39] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:44] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:44] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:49] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:49] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:54] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:54] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:59] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:55:59] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:04] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:04] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:09] [Craft Scheduler Thread - 57 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:09] [Craft Scheduler Thread - 57 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:14] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:14] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:19] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:19] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:24] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:24] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:29] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:29] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:34] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:34] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:39] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:39] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:44] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:44] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:49] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:49] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:54] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:54] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:59] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:56:59] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:04] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:04] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:09] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:09] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:14] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:14] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:19] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:19] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:24] [lumine-scheduler-85/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:57:24] [lumine-scheduler-85/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:57:24] [lumine-scheduler-85/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:57:24] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:29] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:34] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:39] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:44] [Craft Scheduler Thread - 57 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:49] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:54] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:57:59] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:04] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:09] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:14] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:19] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:24] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:29] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:34] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:39] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:44] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:49] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:54] [Craft Scheduler Thread - 66 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:58:59] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:04] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:09] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:14] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:15] [lumine-scheduler-88/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:59:15] [lumine-scheduler-88/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:59:15] [lumine-scheduler-88/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:59:15] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:59:15] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:59:15] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:59:15] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:59:16] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:59:16] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:59:16] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:59:16] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:59:16] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:59:16] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 16 skills.
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:59:16] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:59:16] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:59:16] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:59:16] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:59:34] [Server thread/INFO]: [Mythic] Reloading plugin...
+[04:59:34] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[04:59:34] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[04:59:34] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[04:59:35] [Server thread/INFO]: [MythicMobs] Loading Items...
+[04:59:35] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[04:59:35] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[04:59:35] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[04:59:35] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[04:59:35] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 16 skills.
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[04:59:35] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[04:59:35] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[04:59:35] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[04:59:35] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[04:59:38] [Server thread/INFO]: elyisus_xdd issued server command: /mm mobs spawn Nautilix
+[04:59:38] [lumine-scheduler-88/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[04:59:38] [lumine-scheduler-88/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[04:59:38] [lumine-scheduler-88/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:59:39] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:44] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:49] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:54] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[04:59:56] [Server thread/INFO]: elyisus_xdd issued server command: /mm debug timings
+[04:59:59] [Craft Scheduler Thread - 69 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:04] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:09] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:14] [Craft Scheduler Thread - 65 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:15] [Server thread/INFO]: elyisus_xdd issued server command: /mm utilities testspawn
+[05:00:15] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'mm' in plugin MythicMobs v5.8.2-6a2683d7
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2230) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2190) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1465) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:123) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1442) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1365) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1343) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1232) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.EntityFactory org.bukkit.Bukkit.getEntityFactory()'
+	at io.lumine.mythic.bukkit.commands.utility.TestEntityNBTCommand.onCommand(TestEntityNBTCommand.java:29) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+[05:00:19] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:22] [Server thread/INFO]: elyisus_xdd issued server command: /mm utilities setbasestat
+[05:00:22] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'mm' in plugin MythicMobs v5.8.2-6a2683d7
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2230) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2190) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1465) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:123) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1442) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1365) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1343) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1232) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at io.lumine.mythic.bukkit.commands.utility.SetBaseStatCommand.onCommand(SetBaseStatCommand.java:24) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+[05:00:24] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:26] [Server thread/INFO]: elyisus_xdd issued server command: /mm utilities activeremove
+[05:00:26] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'mm' in plugin MythicMobs v5.8.2-6a2683d7
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-497]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2230) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2190) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1465) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:123) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1442) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1365) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1343) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1232) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at io.lumine.mythic.bukkit.commands.utility.ActiveRemoveCommand.onCommand(ActiveRemoveCommand.java:35) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+[05:00:29] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:34] [Craft Scheduler Thread - 70 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:36] [Server thread/INFO]: elyisus_xdd issued server command: /mm version
+[05:00:39] [Craft Scheduler Thread - 61 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:44] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:49] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:50] [Server thread/INFO]: elyisus_xdd issued server command: /mm save
+[05:00:50] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[05:00:50] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[05:00:54] [Craft Scheduler Thread - 64 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:00:56] [Server thread/INFO]: elyisus_xdd issued server command: /mm signal
+[05:00:59] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:01:04] [Craft Scheduler Thread - 71 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.
+[05:01:09] [Craft Scheduler Thread - 68 - MythicMobs/WARN]: [MythicMobs] Couldn't execute skill 'SitAttempt': Enable debugging for a stack trace.

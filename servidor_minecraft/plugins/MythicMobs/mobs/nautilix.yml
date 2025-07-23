@@ -14,7 +14,7 @@ Nautilix:
     - gotowater{speed=1}
   Skills:
   - model{m=nautilix;ko=true;usm=true} ~onSpawn @self
-  - skill{s=SitAttempt} @self
+  - skill{s=SitAttempt} @self ~onTimer:100
 
   Options:
     PreventOtherDrops: true

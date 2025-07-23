@@ -1,13 +1,13 @@
 SitAttempt:
   Skills:
-    - delay <random.600_900>
+    - delay <random.100_200>
     - skill{s=SitNow} @self
 
 SitSlow:
   Conditions:
-  - variableeq{var=sitting;scope=caster;value=true} true
+  - variableeq{var=sitting;scope=target;value=true} true
   Skills:
-  - velocity{}
+  - velocity{x=-1;y=-1;z=-1;mode=SET;} @self
 
 SitNow:
   Skills:
