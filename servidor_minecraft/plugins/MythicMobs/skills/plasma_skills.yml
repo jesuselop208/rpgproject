@@ -4,7 +4,7 @@ Plasma_Slash:
 
 Plasma_Slash_1:
   Skills:
-  - sound{sound=minecraft:plasma_slash_sound;pitch=1.2;volume=0.1} @self
+  - sound{sound=minecraft:plasma_slash_sound;volume=0.1} @self
   - totem{maxduration=2;charges=1;hitnonplayers=;hitplayers=;hr=2;vr=1;interval=1} @forward{f=1}
   - summon{type=Plasma_Slash_1;amount=1;r=0;yr=0;onsurface=true} @forward{f=1;so=-0.5}
   - damage{amount=5;ignorearmor=true;cd=2;noanger=false} @ENO{range=0.5}
