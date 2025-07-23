@@ -11,7 +11,7 @@ Nautilix:
     - panicWhenOnFire
     - gotowater{speed=1}
   Skills:
-  - model{m=nautilix} ~onLoad @self
+  - model{m=nautilix;ko=true;usm=true} ~onSpawn @self
   - skill{s=SitBehavior} @self ~onTimer:60 
   Options:
     PreventOtherDrops: true

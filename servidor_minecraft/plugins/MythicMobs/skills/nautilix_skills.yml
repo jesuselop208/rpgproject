@@ -1,6 +1,6 @@
 SitBehavior:
   Skills:
-    - playAnimation{animation=sitting} @self
+    - animation{m=nautilix;s=sitting} @self
     - delay 60
     - playAnimation{animation=sitidle} @self
     - delay <random.int(80,200)>
