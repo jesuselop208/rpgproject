@@ -23,6 +23,8 @@ StandUp:
   - potionclear{types=SLOWNESS} @self
 
 NautilixLove:
+  Conditions:
+  - raining true
   Skills:
-  - effect:particles{particle=heart;amount=10;hs=0.2;vs=0.2;speed=0.1;repeat=3;repeatinterval=20} @allInRadius{radius=5} ?raining{onpassskill=NautilixLove}
-  - potion{type=REGENERATION;duration=300;level=2;cooldown=25;chance=0.75} @allInRadius{radius=5} ?raining{onpassskill=NautilixLove}
+  - effect:particles{particle=heart;amount=10;hs=0.2;vs=0.2;speed=0.1;repeat=3;repeatinterval=40} @allInRadius{radius=5;targetplayers=true} 
+  - potion{type=REGENERATION;duration=300;level=2;cooldown=25;chance=0.75;repeat=10;repeatinterval=40} @allInRadius{radius=5;targetplayers=true}
