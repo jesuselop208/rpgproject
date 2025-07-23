@@ -1,17 +1,18 @@
 SitAttempt:
   Skills:
-    - delay <random.700to1200>
+    - delay <random.100to200>
     - skill{s=SitNow} @self
 
 
 SitNow:
   Skills:
   - effect:particles{p=flame;amount=5;hs=0.2;vs=0.2;speed=0.1} @self
-  - velocity{velocityx=-10;velocityz=-10;mode=SET} @self
+  - potion{type=SLOWNESS;duration=999;level=999;ambientparticles=false;} @self
   - setvariable{var=sitting;type=string;value=true} true @self
   - animation{m=nautilix;s=sitting} @self
   - delay 25
   - animation{m=nautilix;s=sitidle;li=10;lo=10} @self
   - delay <random.200to350>
+  - potionclear{types=SLOWNESS} @self
   - animation{m=nautilix;s=idle;li=10;lo=10} @self
   - setvariable{var=sitting;type=string;value=false} false @self
