@@ -17,13 +17,12 @@ SitNow:
   - animation{m=nautilix;s=idle;li=10;lo=10} @self
   - setvariable{var=sitting;type=string;value=false} false @self
 
-CheckStandUp:
-  Conditions:
-    - variableEquals{name=sitting;value=true} true
-  Skills:
-    - skill{s=StandUp} @self
-
 StandUp:
   Skills:
-    - animation{m=nautilix;s=idle} @self
-    - setvariable{name=sitting;value=false;scope=SKILL}
+  - animation{m=nautilix;s=idle} @self
+  - potionclear{types=SLOWNESS} @self
+
+NautilixLove:
+  Skills:
+  - effect:particles{particle=heart;amount=10;hs=0.2;vs=0.2;speed=0.1}
+  - potion{type=REGENERATION;duration=300;level=2;cooldown=25;chance=0.75} @allInRadius{radius=5} ?raining{onpassskill=NautilixLove}
