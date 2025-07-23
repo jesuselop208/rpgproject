@@ -22621,3 +22621,349 @@ java.lang.IllegalArgumentException: null
 [02:20:13] [lumine-scheduler-22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 [02:20:13] [lumine-scheduler-22/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 [02:20:13] [lumine-scheduler-22/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:21:50] [Server thread/INFO]: [Mythic] Reloading plugin...
+[02:21:50] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[02:21:50] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[02:21:50] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:21:51] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:21:51] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:21:51] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:21:51] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:21:51] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:21:51] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 skills.
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:21:51] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:21:51] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[02:21:51] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[02:21:51] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[02:21:59] [Server thread/INFO]: elyisus_xdd issued server command: /weather rain
+[02:21:59] [Server thread/INFO]: [elyisus_xdd: Set the weather to rain]
+[02:22:03] [Server thread/INFO]: elyisus_xdd issued server command: /mm mobs spawn Nautilix
+[02:22:03] [lumine-scheduler-19/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[02:22:03] [lumine-scheduler-19/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[02:22:03] [lumine-scheduler-19/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:22:20] [Server thread/INFO]: elyisus_xdd issued server command: /weather thunder
+[02:22:20] [Server thread/INFO]: [elyisus_xdd: Set the weather to rain & thunder]
+[02:22:24] [Server thread/INFO]: elyisus_xdd issued server command: /weather thunder
+[02:22:24] [Server thread/INFO]: [elyisus_xdd: Set the weather to rain & thunder]
+[02:22:27] [Server thread/INFO]: elyisus_xdd issued server command: /mm mobs spawn Nautilix
+[02:22:27] [lumine-scheduler-19/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[02:22:27] [lumine-scheduler-19/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[02:22:27] [lumine-scheduler-19/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:22:38] [Server thread/INFO]: elyisus_xdd issued server command: /weather clear
+[02:22:38] [Server thread/INFO]: [elyisus_xdd: Set the weather to clear]
+[02:24:47] [lumine-scheduler-23/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[02:24:47] [lumine-scheduler-23/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[02:24:47] [lumine-scheduler-23/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:25:09] [Server thread/INFO]: [Mythic] Reloading plugin...
+[02:25:09] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[02:25:09] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:25:09] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:25:09] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:25:09] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:25:09] [Server thread/ERROR]: Cannot load plugins/MythicMobs/mobs/nautilix.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 2, column 3:
+      Type: DROWNED
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 16, column 5:
+        PreventOtherDrops: true
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.lumine.mythic.core.config.IOLoader.reloadCustomConfig(IOLoader.java:85) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.config.IOLoader.<init>(IOLoader.java:61) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.config.IOHandler.getSaveLoad(IOHandler.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.mobs.MobExecutor.loadMobs(MobExecutor.java:113) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:456) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:47) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:121) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:68) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 2, column 3:
+      Type: DROWNED
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 16, column 5:
+        PreventOtherDrops: true
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:284) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 24 more
+[02:25:09] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+[02:25:09] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[02:25:09] [Server thread/WARN]:       Type: DROWNED
+[02:25:09] [Server thread/WARN]:       ^
+[02:25:09] [Server thread/WARN]: expected <block end>, but found '<block mapping start>'
+[02:25:09] [Server thread/WARN]:  in 'reader', line 16, column 5:
+[02:25:09] [Server thread/WARN]:         PreventOtherDrops: true
+[02:25:09] [Server thread/WARN]:         ^
+[02:25:09] [Server thread/WARN]: 
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111)
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:54)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.core.config.MythicConfigImpl.<init>(MythicConfigImpl.java:45)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.core.mobs.MobExecutor.loadMobs(MobExecutor.java:124)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:456)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:47)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:121)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:68)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64)
+[02:25:09] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55)
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999)
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984)
+[02:25:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.bk(DedicatedServer.java:501)
+[02:25:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:448)
+[02:25:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1525)
+[02:25:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1226)
+[02:25:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[02:25:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:25:09] [Server thread/WARN]: Caused by: while parsing a block mapping
+[02:25:09] [Server thread/WARN]:  in 'reader', line 2, column 3:
+[02:25:09] [Server thread/WARN]:       Type: DROWNED
+[02:25:09] [Server thread/WARN]:       ^
+[02:25:09] [Server thread/WARN]: expected <block end>, but found '<block mapping start>'
+[02:25:09] [Server thread/WARN]:  in 'reader', line 16, column 5:
+[02:25:09] [Server thread/WARN]:         PreventOtherDrops: true
+[02:25:09] [Server thread/WARN]:         ^
+[02:25:09] [Server thread/WARN]: 
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:284)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+[02:25:09] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[02:25:09] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+[02:25:09] [Server thread/WARN]: 	... 22 more
+[02:25:09] [Server thread/ERROR]: Cannot load /workspaces/rpgproject/servidor_minecraft/plugins/MythicMobs/mobs/nautilix.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 2, column 3:
+      Type: DROWNED
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 16, column 5:
+        PreventOtherDrops: true
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.lumine.mythic.bukkit.utils.config.properties.types.NodeListProp.getNodes(NodeListProp.java:43) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.mobs.MobExecutor.loadMobs(MobExecutor.java:126) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:456) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.config.ConfigExecutor.load(ConfigExecutor.java:47) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.plugin.ReloadableModule.reload(ReloadableModule.java:19) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.doReloadPart1(ReloadCommand.java:121) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.commands.ReloadCommand.onCommand(ReloadCommand.java:68) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:55) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 2, column 3:
+      Type: DROWNED
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 16, column 5:
+        PreventOtherDrops: true
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:284) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[02:25:09] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:25:09] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:25:09] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 13 mobs.
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 skills.
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:25:09] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:25:10] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[02:25:10] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[02:25:10] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[02:25:29] [Server thread/INFO]: Named entity EntityDrowned['Nautilix'/5413, uuid='b3d7629d-1d3f-455a-8fcd-a1382caa7a8a', l='ServerLevel[world]', x=308.46, y=-60.00, z=84.29, cpos=[19, 5], tl=6629, v=true] died: Nautilix burned to death
+[02:27:07] [Server thread/INFO]: Named entity EntityDrowned['Nautilix'/5601, uuid='540648ab-02ed-4604-b2e2-edc8a4a372d4', l='ServerLevel[world]', x=282.51, y=-59.00, z=92.73, cpos=[17, 5], tl=6093, v=true] died: Nautilix burned to death
+[02:28:49] [Server thread/INFO]: [Mythic] Reloading plugin...
+[02:28:49] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[02:28:49] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:28:49] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:28:49] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:28:49] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:28:49] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mob Nautilix
+[02:28:49] [Server thread/WARN]: [MythicMobs] --| File: /workspaces/rpgproject/servidor_minecraft/plugins/MythicMobs/mobs/nautilix.yml
+[02:28:49] [Server thread/WARN]: [MythicMobs] --| Error Message: Error parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=skill{s=SitBehavior} @self ~onTimer
+[02:28:49] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:28:49] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:28:49] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 skills.
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:28:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:28:49] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[02:28:49] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[02:28:49] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[02:30:07] [Server thread/INFO]: [Mythic] Reloading plugin...
+[02:30:07] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[02:30:07] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[02:30:07] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[02:30:08] [Server thread/INFO]: [MythicMobs] Loading Items...
+[02:30:08] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[02:30:08] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[02:30:08] [Server thread/WARN]: [MythicMobs] ✗ Configuration Error in Mob Nautilix
+[02:30:08] [Server thread/WARN]: [MythicMobs] --| File: /workspaces/rpgproject/servidor_minecraft/plugins/MythicMobs/mobs/nautilix.yml
+[02:30:08] [Server thread/WARN]: [MythicMobs] --| Error Message: Error parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=skill{s=SitBehavior} @self ~onTimer:<random.60to120>
+[02:30:08] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[02:30:08] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[02:30:08] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 skills.
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[02:30:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[02:30:08] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[02:30:08] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[02:30:08] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
