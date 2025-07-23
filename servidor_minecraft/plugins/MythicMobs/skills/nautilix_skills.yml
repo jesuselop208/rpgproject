@@ -1,10 +1,7 @@
 SitBehavior:
   Skills:
-    - skill{s=SitNow} @self
-
-SitNow:
-  Skills:
-    - playAnimation{animation=sitting;} @self
-    - delay <randomnumber.min=60.max=160>
+    - playAnimation{animation=sitting} @self
+    - delay 60
     - playAnimation{animation=sitidle} @self
-
+    - delay <random.int(80,200)>
+    - playAnimation{animation=idle} @self

@@ -12,7 +12,7 @@ Nautilix:
     - gotowater{speed=1}
   Skills:
   - model{m=nautilix} ~onLoad @self
-  - skill{s=SitBehavior} ~onLoad @self
+  - skill{s=SitBehavior} @self ~onTimer:60 
   Options:
     PreventOtherDrops: true
     PreventSunburn: true

@@ -2947,3 +2947,649 @@
 [01:40:01] [Server thread/INFO]: [MythicMobs] Attached traits to items.
 [01:40:01] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
 [01:40:01] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[01:41:58] [Server thread/INFO]: [Mythic] Reloading plugin...
+[01:41:58] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[01:41:58] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[01:41:58] [Server thread/INFO]: [MythicMobs] Loading Items...
+[01:41:58] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[01:41:58] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[01:41:58] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[01:41:58] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[01:41:58] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 15 skills.
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[01:41:58] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[01:41:59] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[01:41:59] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[01:41:59] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[01:42:02] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:02] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:02] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:03] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:03] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:03] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:03] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:03] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:04] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:04] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:04] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:05] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:05] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:05] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:05] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:05] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:06] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:06] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:06] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:06] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:06] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:07] [lumine-scheduler-3/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:07] [lumine-scheduler-3/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:07] [lumine-scheduler-3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:08] [lumine-scheduler-3/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:08] [lumine-scheduler-3/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:08] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:08] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:08] [lumine-scheduler-4/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:08] [lumine-scheduler-4/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:08] [lumine-scheduler-4/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:08] [lumine-scheduler-3/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:08] [lumine-scheduler-3/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:08] [lumine-scheduler-3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:42:09] [lumine-scheduler-3/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:42:09] [lumine-scheduler-3/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftArmorStand and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.lambda$callAsync$0(Events.java:112)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[01:42:09] [lumine-scheduler-3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:49:27] [Server thread/INFO]: [Mythic] Reloading plugin...
+[01:49:27] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[01:49:27] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[01:49:27] [Server thread/INFO]: [MythicMobs] Loading Items...
+[01:49:27] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[01:49:27] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[01:49:27] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[01:49:27] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[01:49:27] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 skills.
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[01:49:27] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[01:49:27] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[01:49:28] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[01:49:28] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[01:49:33] [Server thread/INFO]: elyisus_xdd issued server command: /mm mobs spawn Nautilix
+[01:49:37] [Server thread/WARN]: [MythicMobs] Task #2112 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:49:40] [Server thread/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:49:40] [Server thread/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:49:40] [Server thread/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:49:40] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:49:40] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:49:40] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:49:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:49:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:49:40] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:49:40] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.core.skills.EventExecutor.processTriggerMechanics(EventExecutor.java:131)
+[01:49:40] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.listeners.triggers.DamageTriggerListeners.onCombatTrigger(DamageTriggerListeners.java:315)
+[01:49:40] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:49:40] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:49:40] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:49:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:49:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.callEvent(CraftEventFactory.java:267)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1203)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1188)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1120)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1081)
+[01:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1237)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.world.entity.EntityLiving.actuallyHurt(EntityLiving.java:2243)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.world.entity.EntityLiving.a(EntityLiving.java:1480)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.world.entity.monster.EntityZombie.a(EntityZombie.java:319)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:1323)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.level.EntityPlayer.d(EntityPlayer.java:2283)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection$3.a(PlayerConnection.java:2787)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$1.a(PacketPlayInUseEntity.java:24)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(PacketPlayInUseEntity.java:80)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2711)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(PacketPlayInUseEntity.java:67)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(PacketPlayInUseEntity.java:12)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:54)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:149)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1465)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:123)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bl(MinecraftServer.java:1442)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1365)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:133)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1343)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1232)
+[01:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[01:49:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:49:40] [Server thread/WARN]: [MythicMobs] Task #2113 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:49:41] [Server thread/ERROR]: [MythicMobs] [EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicTriggerEvent
+[01:49:41] [Server thread/WARN]: java.lang.ClassCastException: class org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned cannot be cast to class org.bukkit.entity.Player (org.bukkit.craftbukkit.v1_20_R3.entity.CraftDrowned and org.bukkit.entity.Player are in unnamed module of loader java.net.URLClassLoader @7591083d)
+[01:49:41] [Server thread/WARN]: 	at MythicCrucible-2.1.0.jar//io.lumine.mythiccrucible.skills.SkillEventListeners.onMythicTrigger(SkillEventListeners.java:253)
+[01:49:41] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:49:41] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:49:41] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:49:41] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:49:41] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:49:41] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[01:49:41] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.core.skills.EventExecutor.processTriggerMechanics(EventExecutor.java:131)
+[01:49:41] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.listeners.triggers.DamageTriggerListeners.onCombatTrigger(DamageTriggerListeners.java:315)
+[01:49:41] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[01:49:41] [Server thread/WARN]: 	at MythicMobs-5.8.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[01:49:41] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[01:49:41] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[01:49:41] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.callEvent(CraftEventFactory.java:267)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1203)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1188)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1120)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1081)
+[01:49:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1237)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.world.entity.EntityLiving.actuallyHurt(EntityLiving.java:2243)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.world.entity.EntityLiving.a(EntityLiving.java:1480)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.world.entity.monster.EntityZombie.a(EntityZombie.java:319)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.world.entity.player.EntityHuman.d(EntityHuman.java:1323)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.level.EntityPlayer.d(EntityPlayer.java:2283)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection$3.a(PlayerConnection.java:2787)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity$1.a(PacketPlayInUseEntity.java:24)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(PacketPlayInUseEntity.java:80)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2711)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(PacketPlayInUseEntity.java:67)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInUseEntity.a(PacketPlayInUseEntity.java:12)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:54)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:149)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1465)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:123)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bl(MinecraftServer.java:1442)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1365)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:133)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1343)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1232)
+[01:49:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[01:49:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[01:49:43] [Server thread/WARN]: [MythicMobs] Task #2118 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:49:46] [Server thread/WARN]: [MythicMobs] Task #2125 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:49:49] [Server thread/WARN]: [MythicMobs] Task #2127 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:49:52] [Server thread/WARN]: [MythicMobs] Task #2128 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:49:55] [Server thread/WARN]: [MythicMobs] Task #2129 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:49:58] [Server thread/WARN]: [MythicMobs] Task #2130 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:50:01] [Server thread/WARN]: [MythicMobs] Task #2131 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:50:04] [Server thread/WARN]: [MythicMobs] Task #2132 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:50:07] [Server thread/WARN]: [MythicMobs] Task #2133 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:50:08] [Server thread/INFO]: [Mythic] Reloading plugin...
+[01:50:08] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[01:50:08] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[01:50:08] [Server thread/INFO]: [MythicMobs] Loading Items...
+[01:50:08] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[01:50:08] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[01:50:08] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[01:50:08] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[01:50:08] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 mobs.
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 14 skills.
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 34 mythic items.
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[01:50:08] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[01:50:09] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[01:50:09] [Server thread/INFO]: [Mythic] Mythic has finished reloading!
+[01:50:09] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading!
+[01:50:10] [Server thread/WARN]: [MythicMobs] Task #2137 for MythicMobs v5.8.2-6a2683d7 generated an exception
+java.lang.IllegalArgumentException: null
+	at io.lumine.mythic.bukkit.utils.numbers.RandomInt.<init>(RandomInt.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:15) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.all.RandomPlaceholder.apply(RandomPlaceholder.java:8) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:127) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:54) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderIntImpl.get(PlaceholderIntImpl.java:46) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.mechanics.DelaySkill.getTicks(DelaySkill.java:36) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.MetaSkill.execute(MetaSkill.java:475) ~[MythicMobs-5.8.2.jar:?]
+	at io.lumine.mythic.core.skills.AbstractSkill$DelayedSkill.run(AbstractSkill.java:463) ~[MythicMobs-5.8.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1646) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-497]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
