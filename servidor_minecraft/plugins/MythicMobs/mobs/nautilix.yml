@@ -17,6 +17,7 @@ Nautilix:
   - skill{s=SitAttempt} @self ~onTimer:500
   - skill{s=StandUp} ~onDamaged @self
   - skill{s=NautilixLove} @self ~onTimer:100
+  - setInteractionSize{height=2;width=3} @self ~onInteract
 
   Options:
     PreventOtherDrops: true

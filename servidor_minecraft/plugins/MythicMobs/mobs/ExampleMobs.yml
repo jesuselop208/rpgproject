@@ -32,3 +32,15 @@ AngrySludge:
   Skills:
   - skill{s=AngrySludgePoison} 0.2
   - blockmask{material=SLIME_BLOCK;r=1;duration=100} @self ~onTimer:20
+
+PipiKiwi:
+  Type: PIG
+  Display: 'pipikiwi'
+  Health: 20
+  AIGoalSelectors:
+    - clear
+    - randomstroll
+    - lookatplayer
+  Skills:
+  - model{m=pipikiwi;ko=true;usm=true} ~onSpawn @self
+

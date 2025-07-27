@@ -22,9 +22,18 @@ StandUp:
   - animation{m=nautilix;s=idle} @self
   - potionclear{types=SLOWNESS} @self
 
+
+NautilixBlessing:
+  Conditions:
+  - HasItem{amount=1;strict=true;types=SLIME_BALL}
+  Skills:
+  
+
+
+
 NautilixLove:
   Conditions:
   - raining true
   Skills:
   - effect:particles{particle=heart;amount=10;hs=0.5;vs=0.5;speed=0.1;repeat=3;repeatinterval=40} @EIR{radius=10;livingonly=true;targetplayers=true} 
-  - potion{type=REGENERATION;duration=300;level=1;cooldown=1;repeat=10;repeatinterval=40;overwrite=true;chance=0.75} @EIR{radius=10;livingonly=true;targetplayers=true}
+  - potion{type=REGENERATION;duration=300;level=1;cooldown=1;overwrite=true;chance=0.35} @EIR{radius=10;livingonly=true;targetplayers=true;ignore=}
