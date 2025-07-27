@@ -42,5 +42,5 @@ PipiKiwi:
     - randomstroll
     - lookatplayer
   Skills:
-  - model{m=pipikiwi;ko=true;usm=true} ~onSpawn @self
+  - model{m=pipi_kiwi;ko=true;usm=true} ~onSpawn @self
 
